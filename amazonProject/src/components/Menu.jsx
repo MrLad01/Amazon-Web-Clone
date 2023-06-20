@@ -40,6 +40,10 @@ const Menu = () => {
         <h3>Books</h3>
         <h3>Registry</h3>
         <h3>Fashion</h3>
+        <h3>Amazon Home</h3>
+        <h3>Pharmacy</h3>
+        <h3>Gift Cards</h3>
+        <div>Watch Creed III</div>
       </div>
     </div>
   )
