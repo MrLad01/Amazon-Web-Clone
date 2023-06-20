@@ -1,6 +1,7 @@
 import reactLogo from './assets/react.svg'
+import Home from './pages/Home'
 import viteLogo from '/vite.svg'
-import { RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 
 
 function App() {
@@ -14,9 +15,7 @@ function App() {
   )
 
   return (
-    <>
       <RouterProvider router={router} />
-    </>
   )
 }
 
