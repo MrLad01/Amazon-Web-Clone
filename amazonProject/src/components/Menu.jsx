@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom" 
 
 const Menu = () => {
   return (
@@ -29,21 +30,24 @@ const Menu = () => {
       </div>
       <div>
         <div><img src="" alt="" />All</div>
-        <h3>Clinic</h3>
-        <h3>Best Sellers</h3>
-        <h3>Customer Service</h3>
-        <h3>Amazon Basics</h3>
-        <h3>New Releases</h3>
-        <div>Prime</div>
-        <h3>Music</h3>
-        <h3>Today's Deals</h3>
-        <h3>Books</h3>
-        <h3>Registry</h3>
-        <h3>Fashion</h3>
-        <h3>Amazon Home</h3>
-        <h3>Pharmacy</h3>
-        <h3>Gift Cards</h3>
-        <div>Watch Creed III</div>
+        <ul> 
+            
+            <li><Link to="">Clinic</Link> </li>
+            <li><Link to="">Best Sellers</Link>  </li>
+            <li><Link to="">Customer Service</Link>  </li>
+            <li><Link to="">Amazon Basics</Link>  </li>
+            <li><Link to="">New Releases</Link>  </li>
+            <div>Prime</div>
+            <li><Link to="">Music</Link> </li>
+            <li><Link to="">Today's Deals</Link> </li>
+            <li><Link to="">Books</Link> </li>
+            <li><Link to="">Registry</Link> </li>
+            <li><Link to="">Fashion</Link> </li>
+            <li><Link to="">Amazon Home</Link> </li>
+            <li><Link to="">Pharmacy</Link> </li>
+            <li><Link to=""> Gift Cards</Link></li>
+            <div>Watch Creed III</div>
+        </ul>
       </div>
     </div>
   )
