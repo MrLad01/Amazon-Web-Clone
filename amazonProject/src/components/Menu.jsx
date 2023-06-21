@@ -30,8 +30,8 @@ const Menu = () => {
       </div>
       <div className="bg-slate-700 text-white flex justify-between px-5 text-sm h-10 items-center">
         <div className="flex">
-          <div className="mr-5"><img src="" alt="" />All</div>
-          <ul className="flex justify-around gap-4">           
+          <div className="mr-5 font-semibold"><img src="" alt="" />All</div>
+          <ul className="flex justify-around gap-4 font-medium">           
               <li><Link to="">Clinic</Link> </li>
               <li><Link to="">Best Sellers</Link>  </li>
               <li><Link to="">Customer Service</Link>  </li>
@@ -48,7 +48,7 @@ const Menu = () => {
               <li><Link to=""> Gift Cards</Link></li>
           </ul>
         </div>
-        <div>Watch Creed III</div>
+        <div className="font-semibold">Watch Creed III</div>
       </div>
     </div>
   )
