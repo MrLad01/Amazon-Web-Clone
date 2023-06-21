@@ -6,7 +6,11 @@ export default {
     "./src/pages/Home.jsx"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: ['Amazon Ember']
+      }
+    },
   },
   plugins: [],
 }

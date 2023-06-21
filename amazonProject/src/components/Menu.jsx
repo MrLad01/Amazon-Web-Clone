@@ -7,7 +7,7 @@ const Menu = () => {
         <img src="" alt="" />
         <div>
             <img src="" alt="" />
-            <h3>Hello</h3>
+            <h3 className="">Hello</h3>
             <h2>Select your address</h2>
         </div>
         <div>
