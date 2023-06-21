@@ -9,6 +9,12 @@ export default {
     extend: {
       fontFamily: {
         body: ['Amazon Ember']
+      },
+      width: {
+        '136': '34rem',
+      },
+      height: {
+        '15': '3.75rem',
       }
     },
   },

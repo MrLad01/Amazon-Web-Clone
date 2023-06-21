@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const Menu = () => {
   return (
     <div>
-      <div className="flex bg-gray-900 text-white justify-around">
+      <div className="flex bg-gray-900 text-white justify-around h-15">
         <img src="" alt="" />
         <div>
             <img src="" alt="" />
@@ -11,9 +11,9 @@ const Menu = () => {
             <h2>Select your address</h2>
         </div>
         <div className="flex">
-            <select name="" id="" placeholder="All" className="text-gray-900 bg-gray-100 "><option value="" >All</option></select>
-            <input type="text" placeholder="Search Amazon" />
-            <button></button>
+            <select name="" id="" placeholder="All" className="text-gray-900 bg-gray-100 h-10 w-12 "><option value="" >All</option></select>
+            <input type="text" placeholder="Search Amazon" className="h-10 w-136" />
+            <button className="h-10 w-11 bg-orange-300"></button>
         </div>
         <div>
             <div><img src="" alt="" />EN</div>
@@ -28,9 +28,9 @@ const Menu = () => {
         </div>
         <div><img src="" alt="" />cart</div>
       </div>
-      <div className="bg-slate-800 text-white flex">
+      <div className="bg-slate-700 text-white flex">
         <div><img src="" alt="" />All</div>
-        <ul className="flex justify-around"> 
+        <ul className="flex"> 
             
             <li><Link to="">Clinic</Link> </li>
             <li><Link to="">Best Sellers</Link>  </li>
