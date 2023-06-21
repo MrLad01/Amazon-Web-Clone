@@ -30,8 +30,8 @@ const Menu = () => {
       </div>
       <div className="bg-slate-700 text-white flex justify-between px-5 text-sm h-10 items-center">
         <div className="flex">
-          <div><img src="" alt="" />All</div>
-          <ul className="flex justify-around gap-2.5">           
+          <div className="mr-5"><img src="" alt="" />All</div>
+          <ul className="flex justify-around gap-4">           
               <li><Link to="">Clinic</Link> </li>
               <li><Link to="">Best Sellers</Link>  </li>
               <li><Link to="">Customer Service</Link>  </li>
