@@ -3,15 +3,15 @@ import { Link } from "react-router-dom"
 const Menu = () => {
   return (
     <div>
-      <div>
+      <div className="flex bg-gray-900 text-white">
         <img src="" alt="" />
         <div>
             <img src="" alt="" />
             <h3 className="">Hello</h3>
             <h2>Select your address</h2>
         </div>
-        <div>
-            <div>All</div>
+        <div className="flex">
+            <button> <select name="" id="">All</select></button>
             <input type="text" placeholder="Search Amazon" />
             <button></button>
         </div>
