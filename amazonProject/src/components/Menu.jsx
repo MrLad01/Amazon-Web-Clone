@@ -16,7 +16,7 @@ const Menu = () => {
             <button className="h-10 w-11 bg-orange-300 rounded-r-md"></button>
         </div>
         <div>
-            <div><img src="" alt=""  /><span className="text-base font-semibold">EN</span></div>
+            <div><img src="" alt=""  /><span className="text-base font-semibold leading-3">EN</span></div>
         </div>
         <div>
             <h3 className="text-xs mb-0 pb-0 leading-3">Hello, sign in</h3>
