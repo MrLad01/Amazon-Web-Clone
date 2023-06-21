@@ -7,7 +7,7 @@ const Menu = () => {
         <img src="" alt="" />
         <div>
             <img src="" alt="" />
-            <h3 className="text-xs mb-0 pb-0 text-gray-300">Hello</h3>
+            <h3 className="text-xs mb-0 pb-0 text-gray-300 leading-3">Hello</h3>
             <h2 className="text-2sm font-semibold mt-0 pt-0 leading-4">Select your address</h2>
         </div>
         <div className="flex">
@@ -19,11 +19,11 @@ const Menu = () => {
             <div><img src="" alt=""  /><span className="text-base font-semibold">EN</span></div>
         </div>
         <div>
-            <h3 className="text-xs mb-0 pb-0">Hello, sign in</h3>
+            <h3 className="text-xs mb-0 pb-0 leading-3">Hello, sign in</h3>
             <h2 className="text-2sm font-semibold mt-0 pt-0 leading-4">Account & Lists</h2>
         </div>
         <div>
-            <h3 className="text-xs mb-0 pb-0">Returns</h3>
+            <h3 className="text-xs mb-0 pb-0 leading-3">Returns</h3>
             <h2 className="text-2sm font-semibold mt-0 pt-0 leading-4">& Orders</h2>
         </div>
         <div className="text-2sm font-semibold mt-0 pt-0"><img src="" alt="" />cart</div>
