@@ -8,7 +8,7 @@ const Menu = () => {
         <div>
             <img src="" alt="" />
             <h3 className="text-xs mb-0 pb-0 text-gray-300">Hello</h3>
-            <h2 className="text-2sm font-semibold mt-0 pt-0">Select your address</h2>
+            <h2 className="text-2sm font-semibold mt-0 pt-0 leading-4">Select your address</h2>
         </div>
         <div className="flex">
             <select name="" id="" placeholder="All" className="text-gray-500 bg-gray-100 h-10 text-xs px-2.5 rounded-l-md border border-solid border-gray-300 "><option value="" className="text-xs px-2.5 ">All</option></select>
@@ -20,11 +20,11 @@ const Menu = () => {
         </div>
         <div>
             <h3 className="text-xs mb-0 pb-0">Hello, sign in</h3>
-            <h2 className="text-2sm font-semibold mt-0 pt-0">Account & Lists</h2>
+            <h2 className="text-2sm font-semibold mt-0 pt-0 leading-4">Account & Lists</h2>
         </div>
         <div>
             <h3 className="text-xs mb-0 pb-0">Returns</h3>
-            <h2 className="text-2sm font-semibold mt-0 pt-0">& Orders</h2>
+            <h2 className="text-2sm font-semibold mt-0 pt-0 leading-4">& Orders</h2>
         </div>
         <div className="text-2sm font-semibold mt-0 pt-0"><img src="" alt="" />cart</div>
       </div>
