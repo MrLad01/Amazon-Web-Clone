@@ -3,6 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/components/Menu.jsx",
+    "./src/components/Body.jsx",
     "./src/pages/Home.jsx"
   ],
   theme: {
