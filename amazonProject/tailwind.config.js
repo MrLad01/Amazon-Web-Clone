@@ -15,6 +15,9 @@ export default {
       },
       height: {
         '15': '3.75rem',
+      }, 
+      fontSize: {
+        '2sm': '0.9375rem',
       }
     },
   },
