@@ -14,7 +14,7 @@ import 'swiper/css/navigation';
 
 const Body = () => {
   return (
-    <>
+    <div className='relative'>
         <div className='grid'>
             <Swiper
                     modules={[Navigation, Autoplay]}
@@ -34,19 +34,19 @@ const Body = () => {
             <div className='h-64 w-full relative bottom-64  bg-gradient-to-t from-slate-100 to-transparent'></div>
             <div className='h-max w-full relative bottom-64 bg-slate-200'></div>
         </div>
-        <div>
-            <div className='grid grid-rows-2 grid-cols-4 gap-y-4 mx-5 items-center justify-center'>
-                <div className='w-78 h-106 bg-black'></div>
-                <div className='w-78 h-106 bg-black'></div>
-                <div className='w-78 h-106 bg-black'></div>
-                <div className='w-78 h-106 bg-black'></div>
-                <div className='w-78 h-106 bg-black'></div>
-                <div className='w-78 h-106 bg-black'></div>
-                <div className='w-78 h-106 bg-black'></div>
-                <div className='w-78 h-106 bg-black'></div>
+        <div className='absolute top-64 z-10'>
+            <div className='grid grid-rows-2 grid-cols-4 gap-y-4 gap-x-5 mx-5 items-center justify-center'>
+                <div className='w-78 h-106 bg-white'></div>
+                <div className='w-78 h-106 bg-white'></div>
+                <div className='w-78 h-106 bg-white'></div>
+                <div className='w-78 h-106 bg-white'></div>
+                <div className='w-78 h-106 bg-white'></div>
+                <div className='w-78 h-106 bg-white'></div>
+                <div className='w-78 h-106 bg-white'></div>
+                <div className='w-78 h-106 bg-white'></div>
             </div>
         </div>
-    </>
+    </div>
   )
 }
 
