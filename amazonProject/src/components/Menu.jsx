@@ -48,7 +48,7 @@ const Menu = () => {
               <li><Link to=""> Gift Cards</Link></li>
           </ul>
         </div>
-        <div className="font-semibold">Watch Creed III</div>
+        <div className="font-extrabold">Watch 'Creed III'</div>
       </div>
     </div>
   )
