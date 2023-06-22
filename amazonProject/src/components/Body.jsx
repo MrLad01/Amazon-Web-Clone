@@ -11,6 +11,7 @@ import img8 from '../images/img8.jpg'
 import img9 from '../images/img9.jpg'
 import img10 from '../images/img10.jpg'
 import img11 from '../images/img11.jpg'
+import img12 from '../images/img12.jpg'
 import img14 from '../images/img14.jpg'
 import img15 from '../images/img15.jpg'
 import img16 from '../images/img16.jpg'
@@ -51,7 +52,7 @@ const Body = () => {
                 <div className='w-78 h-106 bg-white'>
                     <h2>Top Deal</h2>
                     <div>
-                        <img src="" alt="" />
+                        <img src={img5} alt="" />
                         <div>
                             <span>Up to 54% off</span>
                             <span>with Prime</span>
@@ -64,19 +65,19 @@ const Body = () => {
                     <h2>Gap summer essentials</h2>
                     <div>
                         <div>
-                            <img src="" alt="" />
+                            <img src={img6} alt="" />
                             <span>Women's</span>
                         </div>
                         <div>
-                            <img src="" alt="" />
+                            <img src={img7} alt="" />
                             <span>Men's</span>
                         </div>
                         <div>
-                            <img src="" alt="" />
+                            <img src={img8} alt="" />
                             <span>Girl's</span>
                         </div>
                         <div>
-                            <img src="" alt="" />
+                            <img src={img9} alt="" />
                             <span>Boy's</span>
                         </div>
                     </div>
@@ -86,15 +87,15 @@ const Body = () => {
                     <h2>New and pre-loved styles</h2>
                     <div>
                         <div>
-                            <img src="" alt="" />
+                            <img src={img10} alt="" />
                             <span>Dresses</span>
                         </div>
                         <div>
-                            <img src="" alt="" />
+                            <img src={img11} alt="" />
                             <span>Tops</span>
                         </div>
                         <div>
-                            <img src="" alt="" />
+                            <img src={img12} alt="" />
                             <span>Bottoms</span>
                         </div>
                         <div>
@@ -107,22 +108,22 @@ const Body = () => {
                 <div className='w-78 h-106 bg-white'></div>
                 <div className='w-78 h-106 bg-white'>
                     <h2>25% off Shopbop styles</h2>
-                    <img src="" alt="" />
+                    <img src={img14} alt="" />
                     <h4>Shop the sale</h4>
                 </div>
                 <div className='w-78 h-106 bg-white'>
                     <h2>Deals on fitness</h2>
-                    <img src="" alt="" />
+                    <img src={img15} alt="" />
                     <h4>Shop sports and outdoor deals</h4>
                 </div>
                 <div className='w-78 h-106 bg-white'>
                     <h2>New arrivals from Shopbop</h2>
-                    <img src="" alt="" />
+                    <img src={img16} alt="" />
                     <h4>Discover more on Shopbop</h4>
                 </div>
                 <div className='w-78 h-106 bg-white'>
                     <h2>Make a splash</h2>
-                    <img src="" alt="" />
+                    <img src={img17} alt="" />
                     <h4>Discover more on Shopbop</h4>
                 </div>
 
