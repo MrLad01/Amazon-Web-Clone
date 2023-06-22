@@ -110,7 +110,10 @@ const Body = () => {
                     </div>
                     <Link to="" className='text-sm text-blue-500'>Shop Rent the Runway</Link>
                 </div>
-                <div className='w-78 h-106 bg-white'></div>
+                <div className='w-78 h-106 grid gap-y-6 items-center'>
+                    <div className='bg-white h-36 w-78'></div>
+                    <div className='bg-white h-64 w-76'></div>
+                </div>
                 <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
                     <h2 className='text-xl font-bold leading-7'>25% off Shopbop styles</h2>
                     <img src={img14} alt="" className='object-cover h-76 -mt-2' />
