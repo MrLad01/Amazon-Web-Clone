@@ -12,6 +12,7 @@ import img9 from '../images/img9.jpg'
 import img10 from '../images/img10.jpg'
 import img11 from '../images/img11.jpg'
 import img12 from '../images/img12.jpg'
+import img13 from '../images/img13.jpg'
 import img14 from '../images/img14.jpg'
 import img15 from '../images/img15.jpg'
 import img16 from '../images/img16.jpg'
@@ -52,12 +53,12 @@ const Body = () => {
                 <div className='w-78 h-106 bg-white grid content-around px-5'>
                     <h2 className='text-xl font-bold'>Top Deal</h2>
                     <div>
-                        <img src={img5} alt="" />
+                        <img src={img5} alt="" className='-mt-10 mb-3' />
                         <div>
-                            <span>Up to 54% off</span>
-                            <span>with Prime</span>
+                            <span className='text-xs text-white bg-rose-700 p-1.5'>Up to 54% off</span>
+                            <span className='text-xs text-rose-700 ml-2 font-semibold'>With Prime</span>
                         </div>
-                        <h4>Amazon Kids Fire Tablets</h4>
+                        <h4 className='text-xs mt-2'>Amazon Kids Fire Tablets</h4>
                     </div>
                     <Link to="" className='text-sm text-blue-500'>See all deals</Link>
                 </div>
@@ -102,7 +103,7 @@ const Body = () => {
                                 <span className='text-xs -mt-3 text-gray-700'>Bottoms</span>
                             </div>
                             <div>
-                                <img src="" alt="" />
+                                <img src={img13} alt="" className='object-cover h-28' />
                                 <span className='text-xs -mt-3 text-gray-700'>Outwear</span>
                             </div>
                         </div>
