@@ -111,7 +111,10 @@ const Body = () => {
                     <Link to="" className='text-sm text-blue-500'>Shop Rent the Runway</Link>
                 </div>
                 <div className='w-78 h-106 grid gap-y-6'>
-                    <div className='bg-white h-36 w-78'></div>
+                    <div className='bg-white h-36 w-78 grid content-around'>
+                        <h2 className='text-xl font-bold -mt-2'>Sign in for the best experience</h2>
+                        <button className='bg-amber-400'>Sign in securely</button>
+                    </div>
                     <div className='bg-white h-64 w-76 ml-1'></div>
                 </div>
                 <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
