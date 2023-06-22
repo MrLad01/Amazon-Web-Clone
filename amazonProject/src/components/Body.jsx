@@ -49,7 +49,7 @@ const Body = () => {
         </div>
         <div className='absolute top-64 z-10'>
             <div className='grid grid-rows-2 grid-cols-4 gap-y-4 gap-x-5 mx-5 items-center justify-center'>
-                <div className='w-78 h-106 bg-white'>
+                <div className='w-78 h-106 bg-white grid content-around px-5'>
                     <h2>Top Deal</h2>
                     <div>
                         <img src={img5} alt="" />
@@ -61,67 +61,71 @@ const Body = () => {
                     </div>
                     <Link to="">See all deals</Link>
                 </div>
-                <div className='w-78 h-106 bg-white'>
-                    <h2>Gap summer essentials</h2>
+                <div className='w-78 h-106 bg-white grid content-between py-6 px-5'>
                     <div>
-                        <div>
-                            <img src={img6} alt="" />
-                            <span>Women's</span>
-                        </div>
-                        <div>
-                            <img src={img7} alt="" />
-                            <span>Men's</span>
-                        </div>
-                        <div>
-                            <img src={img8} alt="" />
-                            <span>Girl's</span>
-                        </div>
-                        <div>
-                            <img src={img9} alt="" />
-                            <span>Boy's</span>
+                        <h2>Gap summer essentials</h2>
+                        <div className='grid grid-cols-2 grid-rows-2 gap-x-4 gap-y-4'>
+                            <div>
+                                <img src={img6} alt="" />
+                                <span>Women's</span>
+                            </div>
+                            <div>
+                                <img src={img7} alt="" />
+                                <span>Men's</span>
+                            </div>
+                            <div>
+                                <img src={img8} alt="" />
+                                <span>Girl's</span>
+                            </div>
+                            <div>
+                                <img src={img9} alt="" />
+                                <span>Boy's</span>
+                            </div>
                         </div>
                     </div>
                     <Link to="">Shop all Gap</Link>
                 </div>
-                <div className='w-78 h-106 bg-white'>
-                    <h2>New and pre-loved styles</h2>
+                <div className='w-78 h-106 bg-white grid content-between py-6 px-5'>
                     <div>
-                        <div>
-                            <img src={img10} alt="" />
-                            <span>Dresses</span>
-                        </div>
-                        <div>
-                            <img src={img11} alt="" />
-                            <span>Tops</span>
-                        </div>
-                        <div>
-                            <img src={img12} alt="" />
-                            <span>Bottoms</span>
-                        </div>
-                        <div>
-                            <img src="" alt="" />
-                            <span>Outwear</span>
+                        <h2>New and pre-loved styles</h2>
+                        <div className='grid grid-cols-2 grid-rows-2 gap-x-4 gap-y-4'>
+                            <div>
+                                <img src={img10} alt="" />
+                                <span>Dresses</span>
+                            </div>
+                            <div>
+                                <img src={img11} alt="" />
+                                <span>Tops</span>
+                            </div>
+                            <div>
+                                <img src={img12} alt="" />
+                                <span>Bottoms</span>
+                            </div>
+                            <div>
+                                <img src="" alt="" />
+                                <span>Outwear</span>
+                            </div>
                         </div>
                     </div>
                     <Link to="">Shop Rent the Runway</Link>
                 </div>
                 <div className='w-78 h-106 bg-white'></div>
-                <div className='w-78 h-106 bg-white'>
+                <div className='w-78 h-106 bg-white grid content-around px-5'>
                     <h2>25% off Shopbop styles</h2>
                     <img src={img14} alt="" />
                     <h4>Shop the sale</h4>
                 </div>
-                <div className='w-78 h-106 bg-white'>
+                <div className='w-78 h-106 bg-white grid content-around px-5'>
                     <h2>Deals on fitness</h2>
                     <img src={img15} alt="" />
                     <h4>Shop sports and outdoor deals</h4>
                 </div>
-                <div className='w-78 h-106 bg-white'>
+                <div className='w-78 h-106 bg-white grid content-around px-5'>
                     <h2>New arrivals from Shopbop</h2>
                     <img src={img16} alt="" />
                     <h4>Discover more on Shopbop</h4>
                 </div>
-                <div className='w-78 h-106 bg-white'>
+                <div className='w-78 h-106 bg-white grid content-around px-5'>
                     <h2>Make a splash</h2>
                     <img src={img17} alt="" />
                     <h4>Discover more on Shopbop</h4>
