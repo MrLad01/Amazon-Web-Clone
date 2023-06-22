@@ -50,7 +50,7 @@ const Body = () => {
         <div className='absolute top-64 z-10'>
             <div className='grid grid-rows-2 grid-cols-4 gap-y-4 gap-x-5 mx-5 items-center justify-center'>
                 <div className='w-78 h-106 bg-white grid content-around px-5'>
-                    <h2>Top Deal</h2>
+                    <h2 className='text-xl font-bold'>Top Deal</h2>
                     <div>
                         <img src={img5} alt="" />
                         <div>
@@ -59,76 +59,76 @@ const Body = () => {
                         </div>
                         <h4>Amazon Kids Fire Tablets</h4>
                     </div>
-                    <Link to="">See all deals</Link>
+                    <Link to="" className='text-sm text-blue-500'>See all deals</Link>
                 </div>
                 <div className='w-78 h-106 bg-white grid content-between py-6 px-5'>
                     <div>
-                        <h2>Gap summer essentials</h2>
-                        <div className='grid grid-cols-2 grid-rows-2 gap-x-4 gap-y-4'>
+                        <h2 className='text-xl font-bold -mt-2'>Gap summer essentials</h2>
+                        <div className='grid grid-cols-2 grid-rows-2 gap-x-4 gap-y-4 mt-3'>
                             <div>
-                                <img src={img6} alt="" />
-                                <span>Women's</span>
+                                <img src={img6} alt=""  className='object-cover h-28'/>
+                                <span className='text-xs -mt-3 text-gray-700'>Women's</span>
                             </div>
                             <div>
-                                <img src={img7} alt="" />
-                                <span>Men's</span>
+                                <img src={img7} alt=""  className='object-cover h-28'/>
+                                <span className='text-xs -mt-3 text-gray-700'>Men's</span>
                             </div>
                             <div>
-                                <img src={img8} alt="" />
-                                <span>Girl's</span>
+                                <img src={img8} alt=""  className='object-cover h-28'/>
+                                <span className='text-xs -mt-3 text-gray-700'>Girl's</span>
                             </div>
                             <div>
-                                <img src={img9} alt="" />
-                                <span>Boy's</span>
+                                <img src={img9} alt="" className='object-cover h-28' />
+                                <span className='text-xs -mt-3 text-gray-700'>Boy's</span>
                             </div>
                         </div>
                     </div>
-                    <Link to="">Shop all Gap</Link>
+                    <Link to="" className='text-sm text-blue-500'>Shop all Gap</Link>
                 </div>
                 <div className='w-78 h-106 bg-white grid content-between py-6 px-5'>
                     <div>
-                        <h2>New and pre-loved styles</h2>
-                        <div className='grid grid-cols-2 grid-rows-2 gap-x-4 gap-y-4'>
+                        <h2 className='text-xl font-bold -mt-2'>New and pre-loved styles</h2>
+                        <div className='grid grid-cols-2 grid-rows-2 gap-x-4 gap-y-4 mt-3'>
                             <div>
-                                <img src={img10} alt="" />
-                                <span>Dresses</span>
+                                <img src={img10} alt="" className='object-cover h-28' />
+                                <span className='text-xs -mt-3 text-gray-700'>Dresses</span>
                             </div>
                             <div>
-                                <img src={img11} alt="" />
-                                <span>Tops</span>
+                                <img src={img11} alt="" className='object-cover h-28' />
+                                <span className='text-xs -mt-3 text-gray-700'>Tops</span>
                             </div>
                             <div>
-                                <img src={img12} alt="" />
-                                <span>Bottoms</span>
+                                <img src={img12} alt="" className='object-cover h-28' />
+                                <span className='text-xs -mt-3 text-gray-700'>Bottoms</span>
                             </div>
                             <div>
                                 <img src="" alt="" />
-                                <span>Outwear</span>
+                                <span className='text-xs -mt-3 text-gray-700'>Outwear</span>
                             </div>
                         </div>
                     </div>
-                    <Link to="">Shop Rent the Runway</Link>
+                    <Link to="" className='text-sm text-blue-500'>Shop Rent the Runway</Link>
                 </div>
                 <div className='w-78 h-106 bg-white'></div>
-                <div className='w-78 h-106 bg-white grid content-around px-5'>
-                    <h2>25% off Shopbop styles</h2>
-                    <img src={img14} alt="" />
-                    <h4>Shop the sale</h4>
+                <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
+                    <h2 className='text-xl font-bold leading-7'>25% off Shopbop styles</h2>
+                    <img src={img14} alt="" className='object-cover h-76 -mt-2' />
+                    <h4 className='text-sm text-blue-500'>Shop the sale</h4>
                 </div>
-                <div className='w-78 h-106 bg-white grid content-around px-5'>
-                    <h2>Deals on fitness</h2>
-                    <img src={img15} alt="" />
-                    <h4>Shop sports and outdoor deals</h4>
+                <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
+                    <h2 className='text-xl font-bold leading-7'>Deals on fitness</h2>
+                    <img src={img15} alt="" className='object-cover h-76 -mt-2' />
+                    <h4 className='text-sm text-blue-500'>Shop sports and outdoor deals</h4>
                 </div>
-                <div className='w-78 h-106 bg-white grid content-around px-5'>
-                    <h2>New arrivals from Shopbop</h2>
-                    <img src={img16} alt="" />
-                    <h4>Discover more on Shopbop</h4>
+                <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
+                    <h2 className='text-xl font-bold leading-7'>New arrivals from Shopbop</h2>
+                    <img src={img16} alt="" className='object-cover h-76 -mt-2' />
+                    <h4 className='text-sm text-blue-500'>Discover more on Shopbop</h4>
                 </div>
-                <div className='w-78 h-106 bg-white grid content-around px-5'>
-                    <h2>Make a splash</h2>
-                    <img src={img17} alt="" />
-                    <h4>Discover more on Shopbop</h4>
+                <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
+                    <h2 className='text-xl font-bold leading-7'>Make a splash</h2>
+                    <img src={img17} alt="" className='object-cover h-76 -mt-2' />
+                    <h4 className='text-sm text-blue-500'>Discover more on Shopbop</h4>
                 </div>
 
             </div>
