@@ -115,7 +115,9 @@ const Body = () => {
                         <h2 className='text-xl font-bold -mt-3'>Sign in for the best <br />experience</h2>
                         <button className='bg-yellow-400 h-7 w-64 rounded-md text-sm'>Sign in securely</button>
                     </div>
-                    <div className='bg-white h-64 w-76 ml-1'></div>
+                    <div className='bg-white h-64 w-76 ml-1 relative'>
+                        <h3 className='absolute -bottom-4 right-0 text-xs mr-1 text-gray-800'>Sponsored</h3>
+                    </div>
                 </div>
                 <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
                     <h2 className='text-xl font-bold leading-7'>25% off Shopbop styles</h2>
