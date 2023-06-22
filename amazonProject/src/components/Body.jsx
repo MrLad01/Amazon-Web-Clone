@@ -111,9 +111,9 @@ const Body = () => {
                     <Link to="" className='text-sm text-blue-500'>Shop Rent the Runway</Link>
                 </div>
                 <div className='w-78 h-106 grid gap-y-6'>
-                    <div className='bg-white h-36 w-78 grid content-around'>
-                        <h2 className='text-xl font-bold -mt-2'>Sign in for the best experience</h2>
-                        <button className='bg-amber-400'>Sign in securely</button>
+                    <div className='bg-white h-36 w-78 grid content-around py-6 px-5'>
+                        <h2 className='text-xl font-bold -mt-3'>Sign in for the best <br />experience</h2>
+                        <button className='bg-yellow-400 h-7 w-64 rounded-md'>Sign in securely</button>
                     </div>
                     <div className='bg-white h-64 w-76 ml-1'></div>
                 </div>
