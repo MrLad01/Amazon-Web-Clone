@@ -12,10 +12,12 @@ export default {
         body: ['Amazon Ember']
       },
       width: {
+        '78': '19.5rem',
         '136': '34rem',
       },
       height: {
         '15': '3.75rem',
+        '106':'26.5rem',
         'max': '281.25rem',
       }, 
       fontSize: {
