@@ -146,8 +146,15 @@ const Body = () => {
         </div>
         <div className="absolute top-284 z-10">
             <div className="grid grid-rows-2 gap-y-4 mx-5">
-                <div className="bg-white h-72 w-324"></div>
-                <div className="bg-white h-72 w-324"></div>
+                <div className="bg-white h-72 w-324">
+                    <div className='flex gap-x-3'>
+                        <h2 className=''>Trending deals</h2>
+                        <Link to="">See all deals</Link>
+                    </div>
+                </div>
+                <div className="bg-white h-72 w-324">
+                    <h2>Best Sellers in in Home & Kitchen</h2>
+                </div>
             </div>
         </div>
     </div>
