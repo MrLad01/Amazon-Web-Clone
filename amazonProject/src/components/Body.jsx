@@ -70,20 +70,20 @@ const Body = () => {
                         <h2 className='text-xl font-bold -mt-2'>Gap summer essentials</h2>
                         <div className='grid grid-cols-2 grid-rows-2 gap-x-4 gap-y-4 mt-3'>
                             <div>
-                                <Link to=""><img src={img6} alt=""  className='object-cover h-28'/></Link> 
-                                <span className='text-xs -mt-3 text-gray-700'>Women's</span>
+                                <Link to=""><img src={img6} alt=""  className='object-cover h-28'/>
+                                <span className='text-xs -mt-3 text-gray-700'>Women's</span></Link> 
                             </div>
                             <div>
-                                <Link to=""><img src={img7} alt=""  className='object-cover h-28'/></Link> 
-                                <span className='text-xs -mt-3 text-gray-700'>Men's</span>
+                                <Link to=""><img src={img7} alt=""  className='object-cover h-28'/>
+                                <span className='text-xs -mt-3 text-gray-700'>Men's</span></Link> 
                             </div>
                             <div>
-                                <Link to=""><img src={img8} alt=""  className='object-cover h-28'/></Link> 
-                                <span className='text-xs -mt-3 text-gray-700'>Girl's</span>
+                                <Link to=""><img src={img8} alt=""  className='object-cover h-28'/>
+                                <span className='text-xs -mt-3 text-gray-700'>Girl's</span></Link> 
                             </div>
                             <div>
-                                <Link to=""><img src={img9} alt="" className='object-cover h-28' /></Link>  
-                                <span className='text-xs -mt-3 text-gray-700'>Boy's</span>
+                                <Link to=""><img src={img9} alt="" className='object-cover h-28' /> 
+                                <span className='text-xs -mt-3 text-gray-700'>Boy's</span></Link> 
                             </div>
                         </div>
                     </div>
@@ -94,16 +94,16 @@ const Body = () => {
                         <h2 className='text-xl font-bold -mt-2'>New and pre-loved styles</h2>
                         <div className='grid grid-cols-2 grid-rows-2 gap-x-4 gap-y-4 mt-3'>
                             <div>
-                                <Link to=""><img src={img10} alt="" className='object-cover h-28' /></Link>  
-                                <span className='text-xs -mt-3 text-gray-700'>Dresses</span>
+                                <Link to=""><img src={img10} alt="" className='object-cover h-28' /> 
+                                <span className='text-xs -mt-3 text-gray-700'>Dresses</span></Link> 
                             </div>
                             <div>
-                                <Link to=""><img src={img11} alt="" className='object-cover h-28' /></Link>  
-                                <span className='text-xs -mt-3 text-gray-700'>Tops</span>
+                                <Link to=""><img src={img11} alt="" className='object-cover h-28' /> 
+                                <span className='text-xs -mt-3 text-gray-700'>Tops</span></Link> 
                             </div>
                             <div>
-                                <Link to=""><img src={img12} alt="" className='object-cover h-28' /></Link>  
-                                <span className='text-xs -mt-3 text-gray-700'>Bottoms</span>
+                                <Link to=""><img src={img12} alt="" className='object-cover h-28' /> 
+                                <span className='text-xs -mt-3 text-gray-700'>Bottoms</span></Link> 
                             </div>
                             <div>
                                 <Link to=""><img src={img13} alt="" className='object-cover h-28' /></Link>  
