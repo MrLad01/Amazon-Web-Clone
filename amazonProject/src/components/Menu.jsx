@@ -49,6 +49,16 @@ const Menu = () => {
               <option value=""></option>
               <option value=""></option>
               <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
               <option value=""></option> */}
               </select>
             <input type="text" placeholder="Search Amazon" className="h-10 w-136 indent-2 text-base text-gray-600 placeholder:text-gray-500" />
