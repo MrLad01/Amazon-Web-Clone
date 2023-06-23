@@ -17,6 +17,7 @@ import img14 from '../images/img14.jpg'
 import img15 from '../images/img15.jpg'
 import img16 from '../images/img16.jpg'
 import img17 from '../images/img17.jpg'
+import img18 from '../images/img18.jpg'
 import { Link } from 'react-router-dom';
 
 // Import Swiper styles
@@ -116,6 +117,7 @@ const Body = () => {
                         <button className='bg-yellow-400 h-7 w-64 rounded-md text-sm'>Sign in securely</button>
                     </div>
                     <div className='bg-white h-64 w-76 ml-1 relative'>
+                        <img src={img18} alt="" className='object-fit h-64'/>
                         <h3 className='absolute -bottom-4 right-0 text-xs mr-1 text-gray-800'>Sponsored</h3>
                     </div>
                 </div>
@@ -140,6 +142,12 @@ const Body = () => {
                     <h4 className='text-sm text-blue-500'>Discover more on Shopbop</h4>
                 </div>
 
+            </div>
+        </div>
+        <div className="absolute top-284 z-10">
+            <div className="grid grid-rows-2 gap-y-4 mx-5">
+                <div className="bg-white h-72 w-324"></div>
+                <div className="bg-white h-72 w-324"></div>
             </div>
         </div>
     </div>

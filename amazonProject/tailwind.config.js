@@ -15,6 +15,7 @@ export default {
         '76':'19rem',
         '78': '19.5rem',
         '136': '34rem',
+        '324': '81rem',
       },
       height: {
         '15': '3.75rem',
@@ -24,6 +25,11 @@ export default {
       }, 
       fontSize: {
         '2sm': '0.9375rem',
+      },
+      spacing: {
+        '68': '17rem',
+        '220': '55rem',
+        '284': '71rem',
       }
     },
   },
