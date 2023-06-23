@@ -41,10 +41,10 @@ const Body = () => {
                 // pagination={{ clickable: true }}
                 // scrollbar={{ draggable: true }}
             >
-                <SwiperSlide><img src={img1} alt="" /> </SwiperSlide>
-                <SwiperSlide><img src={img2} alt="" /> </SwiperSlide>
-                <SwiperSlide><img src={img3} alt="" /> </SwiperSlide>
-                <SwiperSlide><img src={img4} alt="" /> </SwiperSlide>
+                <SwiperSlide><Link to=""><img src={img1} alt="" /></Link></SwiperSlide>
+                <SwiperSlide><Link to=""><img src={img2} alt="" /></Link></SwiperSlide>
+                <SwiperSlide><Link to=""><img src={img3} alt="" /></Link></SwiperSlide>
+                <SwiperSlide><Link to=""><img src={img4} alt="" /></Link></SwiperSlide>
             </Swiper>
             <div className='h-64 w-full relative bottom-64  bg-gradient-to-t from-slate-100 to-transparent'></div>
             <div className='h-max w-full relative bottom-64 bg-slate-200'></div>
@@ -54,7 +54,7 @@ const Body = () => {
                 <div className='w-78 h-106 bg-white grid content-around px-5'>
                     <h2 className='text-xl font-bold'>Top Deal</h2>
                     <div>
-                        <img src={img5} alt="" className='-mt-10 mb-3' />
+                        <Link to=""><img src={img5} alt="" className='-mt-10</Link>  mb-3' /></Link>
                         <div>
                             <span className='text-xs text-white bg-rose-700 p-1.5'>Up to 54% off</span>
                             <span className='text-xs text-rose-700 ml-2 font-semibold'>With Prime</span>
@@ -68,19 +68,19 @@ const Body = () => {
                         <h2 className='text-xl font-bold -mt-2'>Gap summer essentials</h2>
                         <div className='grid grid-cols-2 grid-rows-2 gap-x-4 gap-y-4 mt-3'>
                             <div>
-                                <img src={img6} alt=""  className='object-cover h-28'/>
+                                <Link to=""><img src={img6} alt=""  className='object-cover h-28'/></Link> 
                                 <span className='text-xs -mt-3 text-gray-700'>Women's</span>
                             </div>
                             <div>
-                                <img src={img7} alt=""  className='object-cover h-28'/>
+                                <Link to=""><img src={img7} alt=""  className='object-cover h-28'/></Link> 
                                 <span className='text-xs -mt-3 text-gray-700'>Men's</span>
                             </div>
                             <div>
-                                <img src={img8} alt=""  className='object-cover h-28'/>
+                                <Link to=""><img src={img8} alt=""  className='object-cover h-28'/></Link> 
                                 <span className='text-xs -mt-3 text-gray-700'>Girl's</span>
                             </div>
                             <div>
-                                <img src={img9} alt="" className='object-cover h-28' />
+                                <Link to=""><img src={img9} alt="" className='object-cover h-28' /></Link>  
                                 <span className='text-xs -mt-3 text-gray-700'>Boy's</span>
                             </div>
                         </div>
@@ -92,19 +92,19 @@ const Body = () => {
                         <h2 className='text-xl font-bold -mt-2'>New and pre-loved styles</h2>
                         <div className='grid grid-cols-2 grid-rows-2 gap-x-4 gap-y-4 mt-3'>
                             <div>
-                                <img src={img10} alt="" className='object-cover h-28' />
+                                <Link to=""><img src={img10} alt="" className='object-cover h-28' /></Link>  
                                 <span className='text-xs -mt-3 text-gray-700'>Dresses</span>
                             </div>
                             <div>
-                                <img src={img11} alt="" className='object-cover h-28' />
+                                <Link to=""><img src={img11} alt="" className='object-cover h-28' /></Link>  
                                 <span className='text-xs -mt-3 text-gray-700'>Tops</span>
                             </div>
                             <div>
-                                <img src={img12} alt="" className='object-cover h-28' />
+                                <Link to=""><img src={img12} alt="" className='object-cover h-28' /></Link>  
                                 <span className='text-xs -mt-3 text-gray-700'>Bottoms</span>
                             </div>
                             <div>
-                                <img src={img13} alt="" className='object-cover h-28' />
+                                <Link to=""><img src={img13} alt="" className='object-cover h-28' /></Link>  
                                 <span className='text-xs -mt-3 text-gray-700'>Outwear</span>
                             </div>
                         </div>
@@ -117,23 +117,23 @@ const Body = () => {
                         <button className='bg-yellow-400 h-7 w-64 rounded-md text-sm'>Sign in securely</button>
                     </div>
                     <div className='bg-white h-64 w-76 ml-1 relative'>
-                        <img src={img18} alt="" className='object-fit h-64'/>
+                        <Link to=""><img src={img18} alt="" className='object-fit h-64'/></Link> 
                         <h3 className='absolute -bottom-4 right-0 text-xs mr-1 text-gray-800'>Sponsored</h3>
                     </div>
                 </div>
                 <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
                     <h2 className='text-xl font-bold leading-7'>25% off Shopbop styles</h2>
-                    <img src={img14} alt="" className='object-cover h-76 -mt-2' />
+                    <Link to=""><img src={img14} alt="" className='object-cover h-76 -mt-2' /></Link>
                     <h4 className='text-sm text-blue-500'>Shop the sale</h4>
                 </div>
                 <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
                     <h2 className='text-xl font-bold leading-7'>Deals on fitness</h2>
-                    <img src={img15} alt="" className='object-cover h-76 -mt-2' />
+                    <Link to=""><img src={img15} alt="" className='object-cover h-76 -mt-2' /></Link>
                     <h4 className='text-sm text-blue-500'>Shop sports and outdoor deals</h4>
                 </div>
                 <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
                     <h2 className='text-xl font-bold leading-7'>New arrivals from Shopbop</h2>
-                    <img src={img16} alt="" className='object-cover h-76 -mt-2' />
+                    <Link to=""><img src={img16} alt="" className='object-cover h-76 -mt-2' /> </Link>
                     <h4 className='text-sm text-blue-500'>Discover more on Shopbop</h4>
                 </div>
                 <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
