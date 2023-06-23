@@ -5,7 +5,7 @@ const Menu = () => {
     <div>
       <div className="flex bg-gray-900 text-white justify-around h-15 items-center">
         <img src="" alt="" />
-        <div>
+        <div className="p-2 hover:border border-white">
             <img src="" alt="" />
             <h3 className="text-xs mb-0 pb-0 text-gray-300 leading-3">Hello</h3>
             <h2 className="text-2sm font-semibold mt-0 pt-0 leading-4">Select your address</h2>
@@ -16,17 +16,17 @@ const Menu = () => {
             <button className="h-10 w-11 bg-orange-300 rounded-r-md"></button>
         </div>
         <div>
-            <div><img src="" alt=""  /><span className="text-base font-semibold leading-3">EN</span></div>
+            <div><img src="" alt=""  /><span className="text-base font-semibold leading-3 p-2 hover:border border-white ">EN</span></div>
         </div>
-        <div>
+        <div className="p-2 hover:border border-white">
             <h3 className="text-xs mb-0 pb-0 leading-3">Hello, sign in</h3>
             <h2 className="text-2sm font-semibold mt-0 pt-0 leading-4">Account & Lists</h2>
         </div>
-        <div>
+        <div className="p-2 hover:border border-white">
             <h3 className="text-xs mb-0 pb-0 leading-3">Returns</h3>
             <h2 className="text-2sm font-semibold mt-0 pt-0 leading-4">& Orders</h2>
         </div>
-        <div className="text-2sm font-semibold mt-0 pt-0"><img src="" alt="" />cart</div>
+        <div className="text-2sm font-semibold mt-0 pt-0 p-2 hover:border border-white"><img src="" alt="" />cart</div>
       </div>
       <div className="bg-slate-700 text-white flex justify-between px-5 text-sm h-10 items-center">
         <div className="flex">
