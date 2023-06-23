@@ -56,10 +56,12 @@ const Body = () => {
                     <div>
                         <Link to=""><img src={img5} alt="" className='-mt-10</Link>  mb-3' /></Link>
                         <div>
-                            <span className='text-xs text-white bg-rose-700 p-1.5'>Up to 54% off</span>
-                            <span className='text-xs text-rose-700 ml-2 font-semibold'>With Prime</span>
+                            <Link>
+                                <span className='text-xs text-white bg-rose-700 p-1.5'>Up to 54% off</span>
+                                <span className='text-xs text-rose-700 ml-2 font-semibold'>With Prime</span>
+                            </Link>
                         </div>
-                        <h4 className='text-xs mt-2'>Amazon Kids Fire Tablets</h4>
+                        <Link className='text-xs mt-2'>Amazon Kids Fire Tablets</Link>
                     </div>
                     <Link to="" className='text-sm text-blue-500'>See all deals</Link>
                 </div>
