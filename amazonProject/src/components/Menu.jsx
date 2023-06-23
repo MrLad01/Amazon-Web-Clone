@@ -28,27 +28,27 @@ const Menu = () => {
         </div>
         <div className="text-2sm font-semibold mt-0 pt-0 p-2 hover:border border-white"><img src="" alt="" />cart</div>
       </div>
-      <div className="bg-slate-700 text-white flex justify-between px-5 text-sm h-10 items-center">
+      <div className="bg-slate-700 text-white flex px-5 text-sm h-10 content-center relative items-center">
         <div className="flex">
-          <div className="mr-5 font-semibold"><img src="" alt="" />All</div>
-          <ul className="flex justify-around gap-4 font-medium">           
-              <li><Link to="">Clinic</Link> </li>
-              <li><Link to="">Best Sellers</Link>  </li>
-              <li><Link to="">Customer Service</Link>  </li>
-              <li><Link to="">Amazon Basics</Link>  </li>
-              <li><Link to="">New Releases</Link>  </li>
-              <div>Prime</div>
-              <li><Link to="">Music</Link> </li>
-              <li><Link to="">Today's Deals</Link> </li>
-              <li><Link to="">Books</Link> </li>
-              <li><Link to="">Registry</Link> </li>
-              <li><Link to="">Fashion</Link> </li>
-              <li><Link to="">Amazon Home</Link> </li>
-              <li><Link to="">Pharmacy</Link> </li>
-              <li><Link to=""> Gift Cards</Link></li>
+          <div className="font-semibold py-2 px-3 hover:border border-white"><img src="" alt="" />All</div>
+          <ul className="flex font-medium content-center items-center">           
+              <li><Link to="" className="px-3 py-2 hover:border border-white">Clinic</Link> </li>
+              <li><Link to="" className="px-3 py-2 hover:border border-white">Best Sellers</Link>  </li>
+              <li><Link to="" className="px-3 py-2 hover:border border-white">Customer Service</Link>  </li>
+              <li><Link to="" className="px-3 py-2 hover:border border-white">Amazon Basics</Link>  </li>
+              <li><Link to="" className="px-3 py-2 hover:border border-white">New Releases</Link>  </li>
+              <div className="px-3 py-2 hover:border border-white">Prime</div>
+              <li><Link to="" className="px-3 py-2 hover:border border-white">Music</Link> </li>
+              <li><Link to="" className="px-3 py-2 hover:border border-white">Today's Deals</Link> </li>
+              <li><Link to="" className="px-3 py-2 hover:border border-white">Books</Link> </li>
+              <li><Link to="" className="px-3 py-2 hover:border border-white">Registry</Link> </li>
+              <li><Link to="" className="px-3 py-2 hover:border border-white">Fashion</Link> </li>
+              <li><Link to="" className="px-3 py-2 hover:border border-white">Amazon Home</Link> </li>
+              {/* <li><Link to="" className="px-1 py-2 hover:border border-white">Pharmacy</Link> </li> */}
+              {/* <li><Link to="" className="px-1 py-2 hover:border border-white"> Gift Cards</Link></li> */}
           </ul>
         </div>
-        <div className="font-extrabold">Watch 'Creed III'</div>
+        <div className="font-extrabold px-2 py-1 hover:border border-white absolute right-0 self-center mr-5">Watch 'Creed III'</div>
       </div>
     </div>
   )
