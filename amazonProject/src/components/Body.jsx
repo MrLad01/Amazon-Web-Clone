@@ -114,7 +114,7 @@ const Body = () => {
                 <div className='w-78 h-106 grid gap-y-6'>
                     <div className='bg-white h-36 w-78 grid content-around py-6 px-5'>
                         <h2 className='text-xl font-bold -mt-3'>Sign in for the best <br />experience</h2>
-                        <button className='bg-yellow-400 h-7 w-64 rounded-md text-sm'>Sign in securely</button>
+                        <button className='bg-yellow-400 hover:bg-yellow-500 h-7 w-64 rounded-md text-sm'>Sign in securely</button>
                     </div>
                     <div className='bg-white h-64 w-76 ml-1 relative'>
                         <Link to=""><img src={img18} alt="" className='object-fit h-64'/></Link> 
@@ -124,22 +124,23 @@ const Body = () => {
                 <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
                     <h2 className='text-xl font-bold leading-7'>25% off Shopbop styles</h2>
                     <Link to=""><img src={img14} alt="" className='object-cover h-76 -mt-2' /></Link>
-                    <h4 className='text-sm text-blue-500'>Shop the sale</h4>
+                    <Link className='text-sm text-blue-500'>Shop the sale</Link>
                 </div>
                 <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
                     <h2 className='text-xl font-bold leading-7'>Deals on fitness</h2>
                     <Link to=""><img src={img15} alt="" className='object-cover h-76 -mt-2' /></Link>
-                    <h4 className='text-sm text-blue-500'>Shop sports and outdoor deals</h4>
+                    <Link className='text-sm text-blue-500'>Shop sports and outdoor deals</Link>
                 </div>
                 <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
                     <h2 className='text-xl font-bold leading-7'>New arrivals from Shopbop</h2>
                     <Link to=""><img src={img16} alt="" className='object-cover h-76 -mt-2' /> </Link>
-                    <h4 className='text-sm text-blue-500'>Discover more on Shopbop</h4>
+                    <Link className='text-sm text-blue-500'>Discover more on Shopbop</Link>
                 </div>
                 <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
                     <h2 className='text-xl font-bold leading-7'>Make a splash</h2>
-                    <img src={img17} alt="" className='object-cover h-76 -mt-2' />
-                    <h4 className='text-sm text-blue-500'>Discover more on Shopbop</h4>
+                    <Link to=""><img src={img17} alt="" className='object-cover h-76 -mt-2' /></Link>
+                    
+                    <Link className='text-sm text-blue-500'>Discover more on Shopbop</Link>
                 </div>
 
             </div>
