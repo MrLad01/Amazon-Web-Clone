@@ -11,7 +11,46 @@ const Menu = () => {
             <h2 className="text-2sm font-semibold mt-0 pt-0 leading-4">Select your address</h2>
         </div>
         <div className="flex">
-            <select name="" id="" placeholder="All" className="text-gray-500 bg-gray-100 h-10 text-xs px-2.5 rounded-l-md border border-solid border-gray-300  cursor-pointer"><option value="" className="text-xs px-2.5 ">All</option></select>
+            <select name="" id="" placeholder="All" className="text-gray-500 bg-gray-100 h-10 text-xs px-2.5 rounded-l-md border border-solid border-gray-300  cursor-pointer">
+              <option value="" className="text-xs px-2.5 ">All</option>
+              {/* <option value="">All Departments</option>
+              <option value="">Alexa Skills</option>
+              <option value="">All The Best Pets</option>
+              <option value="">Amazon Devices</option>
+              <option value="">Amazon Fresh</option>
+              <option value="">Amazon Pharmacy</option>
+              <option value="">Amazon Warehouse</option>
+              <option value="">Appliances</option>
+              <option value="">Apps & Games</option>
+              <option value="">Arts, Crafts & Sewing</option>
+              <option value="">Audible Books & Originals</option>
+              <option value="">Automotive Parts & Accessories</option>
+              <option value="">Baby</option>
+              <option value="">Bartell Drugs</option>
+              <option value="">Beauty & Personal Care</option>
+              <option value="">Books</option>
+              <option value="">CDs & Vinyl</option>
+              <option value="">Cell Phones & Accessories</option>
+              <option value="">
+                Clothing, Shoes & Jewelry
+                <option value="">Women</option>
+                <option value="">Men</option>
+                <option value="">Girls</option>
+                <option value="">Boys</option>
+                <option value="">Baby</option>
+              </option>
+              <option value="">Collectibles & Fine Art</option>
+              <option value="">Computers</option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option> */}
+              </select>
             <input type="text" placeholder="Search Amazon" className="h-10 w-136 indent-2 text-base text-gray-600 placeholder:text-gray-500" />
             <button className="h-10 w-11 bg-orange-300 rounded-r-md"></button>
         </div>
