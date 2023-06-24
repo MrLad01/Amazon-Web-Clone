@@ -5,7 +5,8 @@ export default {
     "./src/components/Menu.jsx",
     "./src/components/Body.jsx",
     "./src/pages/Home.jsx",
-    "./src/subcomponents/Background.jsx"
+    "./src/subcomponents/Background.jsx",
+    "./src/subcomponents/Cards.jsx",
   ],
   theme: {
     extend: {
