@@ -96,7 +96,7 @@ const data = [
             img: img17,
             link:"Discover more on Shopbop"
         }
-    ],
+    ]
 ]
 
 export default data;
