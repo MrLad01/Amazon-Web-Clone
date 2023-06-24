@@ -21,21 +21,23 @@ const Slider = ({number, deal, discount}) => {
               modules={[Navigation, Autoplay, Scrollbar]}
               navigation
               autoplay
-              slidesPerView={3}
+              slidesPerView={6}
+              slidesPerGroup={5}
               spaceBetween={10}
               scrollbar={{ draggable: true }}
-              className="w-full"
+              className="w-316 my-2 pb-4"
   >
             { file.img.map((image) => (      
               <SwiperSlide>
-               <img src={image} alt="" />
+               <img src={image.pic} alt="" />
+               {/* {discount && 
+
+               } */}
               </SwiperSlide>
               ))
            }
           </Swiper>
-
         </div>
-        <div>Hello World</div>
     </div>
      )
   })

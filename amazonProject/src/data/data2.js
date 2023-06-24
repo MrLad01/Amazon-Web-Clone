@@ -27,6 +27,7 @@ import img45 from "../images/img45.jpg"
 import img46 from "../images/img46.jpg"
 import img47 from "../images/img47.jpg"
 import img48 from "../images/img48.jpg"
+
 import img49 from "../images/img49.jpg"
 import img50 from "../images/img50.jpg"
 import img51 from "../images/img51.jpg"
@@ -52,22 +53,96 @@ const data2 = [
             head: "Trending deals",
             link: "See all deals",
             img: [
-                img49,
-                img50,
-                img51,
-                img52,
-                img53,
-                img54,
-                img55,
-                img56,
-                img57,
-                img58,
-                img59,
-                img60,
-                img61,
-                img62,
-                img63,
-                img64
+                {
+                    price: "$18.99 and under",
+                    time:"deal",
+                    description:"WindDancer Men\’s Athletic Tab Socks with Cushion, Running Socks Breathable Comfort for Sport 2/4 Pairs",
+                    pic:img49   
+                },
+                {
+                    price:"Up to 74% off",
+                    time:"deal",
+                    description:"8\" Professional Bypass Pruning Shears, Premium Titanium Garden Shears, Sharp Hand Pruner Secateurs, Hand Pruners, Garden Clippers Hedge Shears With Non-slip Handle Garden Tools",
+                    pic:img50   
+                },
+                {
+                    price:"$19.99",
+                    time:"deal",
+                    description:"ritarga Packing Cubes for Travel 7 Pcs Foldable Set Lightweight Luggage Organizers(Pink)",
+                    pic:img51   
+                },
+                {
+                    price:"Up to 70% off",
+                    time:"deal",
+                    description:"Carabeaner Keychain Hook Set of 5 Locking Carabiner Clips for Hammock, Keychain, Outdoor, Camping, Hiking, Dog Leash Harness",
+                    pic:img52   
+                },
+                {
+                    price:"Up to 24% off",
+                    time:"deal",
+                    description:"Disposable Coffee Cups with Lids and Straws - 12 oz (90 Set) Togo Hot Paper Coffee Cup with Lid To Go for Beverages Espresso Tea Insulated Reusable Cold Drinks Ripple Cups Protect Fingers From Heat!",
+                    pic:img53   
+                },
+                // {
+                //     price:"Up to 70% off",
+                //     time:"deal",
+                //     description:"BESTCROF Rug Pads Grippers, 4 PCS Non Slip Washable Grippers for Rug, New Materials to Anti Curling Rug Pad : Keep Your Rug in Place & Make Corner Flat and Easily Peel Off",
+                //     pic:img54   
+                // },
+                {
+                    price:"15% off",
+                    time:"deal",
+                    description:"Wellike Colorful Beaded Necklace for Women Freshwater Beaded Pearl Choker Necklace Evil Eye Pearl Necklaces for Teen Girls Stainless Steel 18K Gold Plated Necklace Y2K Trendy Pearl Necklace Women",
+                    pic:img54   
+                },
+                {
+                    price:"31% off",
+                    time:"deal",
+                    description:"Beckham Hotel Collection Bed Pillows Standard / Queen Size Set of 2 - Down Alternative Bedding Gel Cooling Pillow for Back, Stomach or Side Sleepers",
+                    pic:img55 
+                },
+                {
+                    price:"Up to 20% off",
+                    time:"deal",
+                    description:"kelamayi Broom and Dustpan Set for Home，Broom and Dustpan Set, Broom Dustpan Set, Broom and Dustpan Combo for Office, Stand Up Broom and Dustpan (Gray&Yellow)",
+                    pic:img57   
+                },
+                {
+                    price:"19% off",
+                    time:"deal",
+                    description:"Electric Air Pump, AGPTEK Portable Quick-Fill Air Pump with 3 Nozzles, 110V AC/12V DC, Perfect Inflator/Deflator Pumps for Outdoor Camping, Inflatable Cushions, Air Mattress Beds, Boats, Swimming Ring",
+                    pic:img58   
+                },
+                {
+                    price:"Up t0 43% off",
+                    time:"deal",
+                    description:"Orian Teepee Tent for Kids - Indoor Tent, Pompon Ball Design, Built-in Mat, Inner Pockets, Window, LED Star Lights, Dream Catcher, Unique Threaded Poles - The Perfect Play Tent for Girls & Boys",
+                    pic:img59   
+                },
+                {
+                    price:"Up to 19% 0ff",
+                    time:"deal",
+                    description:"ANRABESS Women's Summer 2 Piece Outfits Sleeveless Tank Crop Button Back Top Cropped Wide Leg Pants Set Pockets",
+                    pic:img61   
+                },
+                {
+                    price:"Up to 62% off",
+                    time:"deal",
+                    description:"Ring Video Doorbell Wired and Bundles",
+                    pic:img62   
+                },
+                {
+                    price:"Up to 47% off",
+                    time:"deal",
+                    description:"MLVOC Travel Pillow Memory Foam Neck Pillow, Adjustable Comfort Breathable Cover, Airplane Travel Set with 3D Sleep mask, Earplugs Box, for Airplane, Car, Office, Home (Full Black)",
+                    pic:img63   
+                },
+                {
+                    price:"Up to 32% off",
+                    time:"deal",
+                    description:"98K Reusable Water Balloons Self Sealing Easy Quick Fill, Silicone Water Balls Summer Fun Outdoor Water Toys Games for Kids Adults Outside Play, Bath Backyard Swimming Pool Party Supplies (6 PCS)",
+                    pic:img64   
+                }
             ]
         }
     ],
@@ -76,35 +151,93 @@ const data2 = [
             id: 1,
             head: "Best Sellers in Home & Kitchen",
             img: [
-                    img19,
-                    img20,
-                    img21,
-                    img22,
-                    img23,
-                    img24,
-                    img25,
-                    img27,
-                    img28,
-                    img29,
-                    img30,
-                    img31,
-                    img32,
-                    img33,
-                    img34,
-                    img35,
-                    img36,
-                    img37,
-                    img38,
-                    img39,
-                    img40,
-                    img41,
-                    img42,
-                    img43,
-                    img44,
-                    img45,
-                    img46,
-                    img47,
-                    img48
+                    {
+                     pic:img19   
+                    },
+                    {
+                     pic:img20   
+                    },
+                    {
+                     pic:img21   
+                    },
+                    {
+                     pic:img22   
+                    },
+                    {
+                     pic:img23   
+                    },
+                    {
+                     pic:img24   
+                    },
+                    {
+                     pic:img25   
+                    },
+                    {
+                     pic:img27   
+                    },
+                    {
+                     pic:img28   
+                    },
+                    {
+                     pic:img29   
+                    },
+                    {
+                     pic:img30   
+                    },
+                    {
+                     pic:img31   
+                    },
+                    {
+                     pic:img32   
+                    },
+                    {
+                     pic:img33   
+                    },
+                    {
+                     pic:img34   
+                    },
+                    {
+                     pic:img35   
+                    },
+                    {
+                     pic:img36   
+                    },
+                    {
+                     pic:img37   
+                    },
+                    {
+                     pic:img38   
+                    },
+                    {
+                     pic:img39   
+                    },
+                    {
+                     pic:img40   
+                    },
+                    {
+                     pic:img41   
+                    },
+                    {
+                     pic:img42   
+                    },
+                    {
+                     pic:img43   
+                    },
+                    {
+                     pic:img44   
+                    },
+                    {
+                     pic:img45   
+                    },
+                    {
+                     pic:img46   
+                    },
+                    {
+                     pic:img47   
+                    },
+                    {
+                     pic:img48   
+                    }
             ]
         }
     ]
