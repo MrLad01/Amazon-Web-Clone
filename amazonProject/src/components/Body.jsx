@@ -2,6 +2,7 @@ import Background from '../subcomponents/Background'
 import img18 from '../images/img18.jpg'
 import { Link } from 'react-router-dom';
 import Cards from '../subcomponents/Cards'
+import Slider from '../subcomponents/Slide';
 
 
 const Body = () => {
@@ -31,15 +32,8 @@ const Body = () => {
         </div>
         <div className="absolute top-284 z-10">
             <div className="grid grid-rows-2 gap-y-4 mx-5">
-                <div className="bg-white h-72 w-324 px-5 py-6">
-                    <div className='flex gap-x-3'>
-                        <h2 className='text-xl font-bold'>Trending deals</h2>
-                        <Link to="" className='text-sm text-blue-500 mt-1'>See all deals</Link>
-                    </div>
-                </div>
-                <div className="bg-white h-72 w-324 px-5 py-6">
-                    <h2 className='text-xl font-bold'>Best Sellers in in Home & Kitchen</h2>
-                </div>
+                <Slider number={0} deal={true} />
+                <Slider number={1} />
             </div>
         </div>
 
