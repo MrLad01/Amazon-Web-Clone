@@ -137,6 +137,7 @@ const Body = () => {
         <div className='flex'>
             <Cards number={0} imgno={1} />
             <Cards number={1} imgno={4} />
+            {/* <Cards number={0} imgno={1} /> */}
         </div>
     </div>
   )
