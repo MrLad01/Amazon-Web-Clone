@@ -11,7 +11,7 @@ import img14 from '../images/img14.jpg'
 import img15 from '../images/img15.jpg'
 import img16 from '../images/img16.jpg'
 import img17 from '../images/img17.jpg'
-import img18 from '../images/img18.jpg'
+
 
 const data = [
     [

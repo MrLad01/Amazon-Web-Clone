@@ -1,22 +1,7 @@
 import Background from '../subcomponents/Background'
-import img5 from '../images/img5.jpg'
-import img6 from '../images/img6.jpg'
-import img7 from '../images/img7.jpg'
-import img8 from '../images/img8.jpg'
-import img9 from '../images/img9.jpg'
-import img10 from '../images/img10.jpg'
-import img11 from '../images/img11.jpg'
-import img12 from '../images/img12.jpg'
-import img13 from '../images/img13.jpg'
-import img14 from '../images/img14.jpg'
-import img15 from '../images/img15.jpg'
-import img16 from '../images/img16.jpg'
-import img17 from '../images/img17.jpg'
 import img18 from '../images/img18.jpg'
 import { Link } from 'react-router-dom';
 import Cards from '../subcomponents/Cards'
-
-
 
 
 const Body = () => {
