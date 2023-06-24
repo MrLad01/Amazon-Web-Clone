@@ -65,7 +65,14 @@ const data = [
             link: "Shop Rent the Runway"
         }
     ],
-    
+    [
+        {
+            id: 3,
+            head:"25% off Shopbop styles",
+            img: img14,
+            link:"Shop the sale"
+        }
+    ]
 ]
 
 export default data;

@@ -25,7 +25,7 @@ const Body = () => {
         <Background />
         <div className='absolute top-64 z-10'>
             <div className='grid grid-rows-2 grid-cols-4 gap-y-4 gap-x-5 mx-5 items-center justify-center'>
-                <Cards number={0} imgno={1} />
+                <Cards number={0} imgno={1} deal={true}/>
                 <Cards number={1} imgno={4} />
                 <Cards number={2} imgno={4} />
                 <div className='w-78 h-106 grid gap-y-6'>
@@ -38,11 +38,7 @@ const Body = () => {
                         <h3 className='absolute -bottom-4 right-0 text-xs mr-1 text-gray-800'>Sponsored</h3>
                     </div>
                 </div>
-                <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
-                    <h2 className='text-xl font-bold leading-7'>25% off Shopbop styles</h2>
-                    <Link to=""><img src={img14} alt="" className='object-cover h-76 -mt-2' /></Link>
-                    <Link className='text-sm text-blue-500'>Shop the sale</Link>
-                </div>
+                <Cards number={3} imgno={1} deal={false} />
                 <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
                     <h2 className='text-xl font-bold leading-7'>Deals on fitness</h2>
                     <Link to=""><img src={img15} alt="" className='object-cover h-76 -mt-2' /></Link>

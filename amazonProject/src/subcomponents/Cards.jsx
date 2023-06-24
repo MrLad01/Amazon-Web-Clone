@@ -3,14 +3,14 @@
 import data from '../data/data'
 import { Link } from "react-router-dom"
 
-const Cards = ({number, imgno}) => {
+const Cards = ({number, imgno, deal}) => {
 
     const files = data[number].map((file) => {
         return ( 
              imgno === 1 ?  
                <div className='w-78 h-106 bg-white grid content-around px-5'>
                   <h2 className='text-xl font-bold'>{file.head}</h2>
-                  <div>
+                  {deal ? <div>
                       <Link to=""><img src={file.img} alt="" className='-mt-10 mb-3' /></Link>
                       <div>
                           <Link>
@@ -19,7 +19,9 @@ const Cards = ({number, imgno}) => {
                           </Link>
                       </div>
                       <Link className='text-xs mt-2'>{file.deal[2]}</Link>
-                  </div>
+                  </div> :
+                    <Link to=""><img src={file.img} alt="" className='object-cover h-76 -mt-2' /></Link>
+                  }
                   <Link to="" className='text-sm text-blue-500'>{file.link}</Link>
               </div>   :     
               <div className='w-78 h-106 bg-white grid content-between py-6 px-5'>
