@@ -22,7 +22,7 @@ const Cards = ({number, imgno, deal}) => {
                   </div> :
                     <Link to=""><img src={file.img} alt="" className='object-cover h-76 -mt-2' /></Link>
                   }
-                  <Link to="" className='text-sm text-blue-500'>{file.link}</Link>
+                  <Link to="" className='text-sm text-blue-500 hover:text-rose-700 hover:underline'>{file.link}</Link>
               </div>   :     
               <div className='w-78 h-106 bg-white grid content-between py-6 px-5'>
                           <div>
@@ -46,7 +46,7 @@ const Cards = ({number, imgno, deal}) => {
                                   </div>
                               </div>
                           </div>
-                          <Link to="" className='text-sm text-blue-500'>{file.link}</Link>
+                          <Link to="" className='text-sm text-blue-500 hover:text-rose-700 hover:underline'>{file.link}</Link>
                       </div> 
               
            
