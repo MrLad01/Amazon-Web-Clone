@@ -32,7 +32,7 @@ const Body = () => {
         </div>
         <div className="absolute top-284 z-10">
             <div className="grid grid-rows-2 gap-y-4 mx-5">
-                {/* <Slider number={0} deal={true} /> */}
+                <Slider number={0} deal={true} discount={true} />
                 <Slider number={1} />
             </div>
         </div>
