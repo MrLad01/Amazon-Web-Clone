@@ -14,7 +14,7 @@ import img16 from '../images/img16.jpg'
 import img17 from '../images/img17.jpg'
 import img18 from '../images/img18.jpg'
 import { Link } from 'react-router-dom';
-import data from '../data/data'
+import Cards from '../subcomponents/Cards'
 
 
 
@@ -133,6 +133,10 @@ const Body = () => {
                     <h2 className='text-xl font-bold'>Best Sellers in in Home & Kitchen</h2>
                 </div>
             </div>
+        </div>
+        <div className='flex'>
+            <Cards number={0} imgno={1} />
+            <Cards number={1} imgno={4} />
         </div>
     </div>
   )
