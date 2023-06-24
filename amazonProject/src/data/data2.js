@@ -6,5 +6,14 @@ const data2 = [
             link: "See all deals",
             img: []
         }
+    ],
+    [
+        {
+            id: 1,
+            head: "Best Sellers in Home & Kitchen",
+            img: []
+        }
     ]
 ]
+
+export default data2;
