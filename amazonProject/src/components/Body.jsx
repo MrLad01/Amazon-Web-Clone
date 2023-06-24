@@ -39,23 +39,9 @@ const Body = () => {
                     </div>
                 </div>
                 <Cards number={3} imgno={1} deal={false} />
-                <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
-                    <h2 className='text-xl font-bold leading-7'>Deals on fitness</h2>
-                    <Link to=""><img src={img15} alt="" className='object-cover h-76 -mt-2' /></Link>
-                    <Link className='text-sm text-blue-500'>Shop sports and outdoor deals</Link>
-                </div>
-                <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
-                    <h2 className='text-xl font-bold leading-7'>New arrivals from Shopbop</h2>
-                    <Link to=""><img src={img16} alt="" className='object-cover h-76 -mt-2' /> </Link>
-                    <Link className='text-sm text-blue-500'>Discover more on Shopbop</Link>
-                </div>
-                <div className='w-78 h-106 bg-white grid content-around px-5 py-2'>
-                    <h2 className='text-xl font-bold leading-7'>Make a splash</h2>
-                    <Link to=""><img src={img17} alt="" className='object-cover h-76 -mt-2' /></Link>
-                    
-                    <Link className='text-sm text-blue-500'>Discover more on Shopbop</Link>
-                </div>
-
+                <Cards number={4} imgno={1} deal={false} />
+                <Cards number={5} imgno={1} deal={false} />
+                <Cards number={6} imgno={1} deal={false} />
             </div>
         </div>
         <div className="absolute top-284 z-10">

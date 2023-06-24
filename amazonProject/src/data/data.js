@@ -72,7 +72,31 @@ const data = [
             img: img14,
             link:"Shop the sale"
         }
-    ]
+    ],
+    [
+        {
+            id: 4,
+            head:"Deals on fitness",
+            img: img15,
+            link:"Shop sports and outdoor deals"
+        }
+    ],
+    [
+        {
+            id: 5,
+            head:"New arrivals from Shopbop",
+            img: img16,
+            link:"Discover more on Shopbop"
+        }
+    ],
+    [
+        {
+            id: 6,
+            head:"Make a splash",
+            img: img17,
+            link:"Discover more on Shopbop"
+        }
+    ],
 ]
 
 export default data;
