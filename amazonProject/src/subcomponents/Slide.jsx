@@ -22,15 +22,16 @@ const Slider = ({number, deal, discount}) => {
               navigation
               autoplay
               slidesPerView={3}
+              spaceBetween={10}
+              scrollbar={{ draggable: true }}
+              className="w-full"
   >
-            { file.img.map((image) => (
-              
+            { file.img.map((image) => (      
               <SwiperSlide>
-              <img src={image} alt="" />
+               <img src={image} alt="" />
               </SwiperSlide>
               ))
-    
-              }
+           }
           </Swiper>
 
         </div>
