@@ -5,9 +5,23 @@ import { Link } from "react-router-dom"
 
 const Cards = ({number, imgno}) => {
 
-    const files = data[`${number}`].map((file) => {
+    const files = data[number].map((file) => {
         return ( 
-             imgno === 1 ? 
+             imgno === 1 ?  
+               <div className='w-78 h-106 bg-white grid content-around px-5'>
+                  <h2 className='text-xl font-bold'>{file.head}</h2>
+                  <div>
+                      <Link to=""><img src={file.img} alt="" className='-mt-10 mb-3' /></Link>
+                      <div>
+                          <Link>
+                              <span className='text-xs text-white bg-rose-700 p-1.5'>{file.deal[0]}</span>
+                              <span className='text-xs text-rose-700 ml-2 font-semibold'>{file.deal[1]}</span>
+                          </Link>
+                      </div>
+                      <Link className='text-xs mt-2'>{file.deal[2]}</Link>
+                  </div>
+                  <Link to="" className='text-sm text-blue-500'>{file.link}</Link>
+              </div>   :     
               <div className='w-78 h-106 bg-white grid content-between py-6 px-5'>
                           <div>
                               <h2 className='text-xl font-bold -mt-2'>{file.head}</h2>
@@ -32,21 +46,8 @@ const Cards = ({number, imgno}) => {
                           </div>
                           <Link to="" className='text-sm text-blue-500'>{file.link}</Link>
                       </div> 
-              : 
-              <div className='w-78 h-106 bg-white grid content-around px-5'>
-                  <h2 className='text-xl font-bold'>{file.head}</h2>
-                  <div>
-                      <Link to=""><img src={file.img} alt="" className='-mt-10 mb-3' /></Link>
-                      <div>
-                          <Link>
-                              <span className='text-xs text-white bg-rose-700 p-1.5'>{file.deal[0]}</span>
-                              <span className='text-xs text-rose-700 ml-2 font-semibold'>{file.deal[1]}</span>
-                          </Link>
-                      </div>
-                      <Link className='text-xs mt-2'>{file.deal[2]}</Link>
-                  </div>
-                  <Link to="" className='text-sm text-blue-500'>{file.link}</Link>
-              </div>        
+              
+           
                )   
              } 
         ) 

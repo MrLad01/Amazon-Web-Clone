@@ -64,7 +64,8 @@ const data = [
             ],
             link: "Shop Rent the Runway"
         }
-    ]
+    ],
+    
 ]
 
 export default data;

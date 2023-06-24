@@ -25,68 +25,9 @@ const Body = () => {
         <Background />
         <div className='absolute top-64 z-10'>
             <div className='grid grid-rows-2 grid-cols-4 gap-y-4 gap-x-5 mx-5 items-center justify-center'>
-                <div className='w-78 h-106 bg-white grid content-around px-5'>
-                    <h2 className='text-xl font-bold'>Top Deal</h2>
-                    <div>
-                        <Link to=""><img src={img5} alt="" className='-mt-10</Link>  mb-3' /></Link>
-                        <div>
-                            <Link>
-                                <span className='text-xs text-white bg-rose-700 p-1.5'>Up to 54% off</span>
-                                <span className='text-xs text-rose-700 ml-2 font-semibold'>With Prime</span>
-                            </Link>
-                        </div>
-                        <Link className='text-xs mt-2'>Amazon Kids Fire Tablets</Link>
-                    </div>
-                    <Link to="" className='text-sm text-blue-500'>See all deals</Link>
-                </div>
-                <div className='w-78 h-106 bg-white grid content-between py-6 px-5'>
-                    <div>
-                        <h2 className='text-xl font-bold -mt-2'>Gap summer essentials</h2>
-                        <div className='grid grid-cols-2 grid-rows-2 gap-x-4 gap-y-4 mt-3'>
-                            <div>
-                                <Link to=""><img src={img6} alt=""  className='object-cover h-28'/>
-                                <span className='text-xs -mt-3 text-gray-700'>Women's</span></Link> 
-                            </div>
-                            <div>
-                                <Link to=""><img src={img7} alt=""  className='object-cover h-28'/>
-                                <span className='text-xs -mt-3 text-gray-700'>Men's</span></Link> 
-                            </div>
-                            <div>
-                                <Link to=""><img src={img8} alt=""  className='object-cover h-28'/>
-                                <span className='text-xs -mt-3 text-gray-700'>Girl's</span></Link> 
-                            </div>
-                            <div>
-                                <Link to=""><img src={img9} alt="" className='object-cover h-28' /> 
-                                <span className='text-xs -mt-3 text-gray-700'>Boy's</span></Link> 
-                            </div>
-                        </div>
-                    </div>
-                    <Link to="" className='text-sm text-blue-500'>Shop all Gap</Link>
-                </div>
-                <div className='w-78 h-106 bg-white grid content-between py-6 px-5'>
-                    <div>
-                        <h2 className='text-xl font-bold -mt-2'>New and pre-loved styles</h2>
-                        <div className='grid grid-cols-2 grid-rows-2 gap-x-4 gap-y-4 mt-3'>
-                            <div>
-                                <Link to=""><img src={img10} alt="" className='object-cover h-28' /> 
-                                <span className='text-xs -mt-3 text-gray-700'>Dresses</span></Link> 
-                            </div>
-                            <div>
-                                <Link to=""><img src={img11} alt="" className='object-cover h-28' /> 
-                                <span className='text-xs -mt-3 text-gray-700'>Tops</span></Link> 
-                            </div>
-                            <div>
-                                <Link to=""><img src={img12} alt="" className='object-cover h-28' /> 
-                                <span className='text-xs -mt-3 text-gray-700'>Bottoms</span></Link> 
-                            </div>
-                            <div>
-                                <Link to=""><img src={img13} alt="" className='object-cover h-28' /></Link>  
-                                <span className='text-xs -mt-3 text-gray-700'>Outwear</span>
-                            </div>
-                        </div>
-                    </div>
-                    <Link to="" className='text-sm text-blue-500'>Shop Rent the Runway</Link>
-                </div>
+                <Cards number={0} imgno={1} />
+                <Cards number={1} imgno={4} />
+                <Cards number={2} imgno={4} />
                 <div className='w-78 h-106 grid gap-y-6'>
                     <div className='bg-white h-36 w-78 grid content-around py-6 px-5'>
                         <h2 className='text-xl font-bold -mt-3'>Sign in for the best <br />experience</h2>
@@ -137,7 +78,7 @@ const Body = () => {
         <div className='flex'>
             <Cards number={0} imgno={1} />
             <Cards number={1} imgno={4} />
-            {/* <Cards number={0} imgno={1} /> */}
+            <Cards number={2} imgno={4} />
         </div>
     </div>
   )
