@@ -11,6 +11,13 @@ import img14 from '../images/img14.jpg'
 import img15 from '../images/img15.jpg'
 import img16 from '../images/img16.jpg'
 import img17 from '../images/img17.jpg'
+import img65 from '../images/img65.jpg'
+import img66 from '../images/img66.jpg'
+import img67 from '../images/img67.jpg'
+import img68 from '../images/img68.jpg'
+import img69 from '../images/img69.jpg'
+import img70 from '../images/img70.jpg'
+import img71 from '../images/img71.jpg'
 
 
 const data = [
@@ -95,6 +102,49 @@ const data = [
             head:"Make a splash",
             img: img17,
             link:"Discover more on Shopbop"
+        }
+    ],
+    [
+        {
+            id: 7,
+            head: "Capture the moments",
+            img: img65,
+            link: "Shop more cameras"
+        }
+    ],
+    [
+        {
+            id: 8,
+            head: "New releases",
+            img: [
+                img66,
+                img67,
+                img68,
+                img69
+            ],
+            caption: [
+                "Transformers",
+                "The Little Mermaid",
+                "The Flash",
+                "Spider Man"
+            ],
+            link: "Shop more gifts"
+        }
+    ],
+    [
+        {
+            id: 9,
+            head: "Unlock Prime Day deals",
+            img: img70,
+            link: "Prime members get exclusive access"
+        }
+    ],
+    [
+        {
+            id: 10,
+            head: "The pre-loved edit at ShopBop",
+            img: img71,
+            link: "See more at ShopBop"
         }
     ]
 ]
