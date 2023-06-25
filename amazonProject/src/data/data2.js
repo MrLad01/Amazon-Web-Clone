@@ -35,15 +35,44 @@ import img52 from "../images/img52.jpg"
 import img53 from "../images/img53.jpg"
 import img54 from "../images/img54.jpg"
 import img55 from "../images/img55.jpg"
-import img56 from "../images/img56.jpg"
 import img57 from "../images/img57.jpg"
 import img58 from "../images/img58.jpg"
 import img59 from "../images/img50.jpg"
-import img60 from "../images/img60.jpg"
 import img61 from "../images/img61.jpg"
 import img62 from "../images/img62.jpg"
 import img63 from "../images/img63.jpg"
 import img64 from "../images/img64.jpg"
+
+import img72 from "../images/img72.jpg"
+import img73 from "../images/img73.jpg"
+import img74 from "../images/img74.jpg"
+import img75 from "../images/img75.jpg"
+import img76 from "../images/img76.jpg"
+import img77 from "../images/img77.jpg"
+import img78 from "../images/img78.jpg"
+import img79 from "../images/img79.jpg"
+import img80 from "../images/img80.jpg"
+import img81 from "../images/img81.jpg"
+import img82 from "../images/img82.jpg"
+import img83 from "../images/img83.jpg"
+import img84 from "../images/img84.jpg"
+import img85 from "../images/img85.jpg"
+import img86 from "../images/img86.jpg"
+import img87 from "../images/img87.jpg"
+import img88 from "../images/img88.jpg"
+import img89 from "../images/img89.jpg"
+import img90 from "../images/img90.jpg"
+import img91 from "../images/img91.jpg"
+import img92 from "../images/img92.jpg"
+import img93 from "../images/img93.jpg"
+import img94 from "../images/img94.jpg"
+import img95 from "../images/img95.jpg"
+import img96 from "../images/img96.jpg"
+import img97 from "../images/img97.jpg"
+import img98 from "../images/img98.jpg"
+import img99 from "../images/img99.jpg"
+
+
 
 
 const data2 = [
@@ -237,6 +266,98 @@ const data2 = [
                     },
                     {
                      pic:img48   
+                    }
+            ]
+        }
+    ],
+    [
+        {
+            id: 2,
+            head: "Best sellers in Automotive Interior Accesories",
+            img: [
+                    {
+                     pic:img72   
+                    },
+                    {
+                     pic:img73   
+                    },
+                    {
+                     pic:img74   
+                    },
+                    {
+                     pic:img75   
+                    },
+                    {
+                     pic:img76   
+                    },
+                    {
+                     pic:img77   
+                    },
+                    {
+                     pic:img78   
+                    },
+                    {
+                     pic:img79   
+                    },
+                    {
+                     pic:img80   
+                    },
+                    {
+                     pic:img81   
+                    },
+                    {
+                     pic:img82  
+                    },
+                    {
+                     pic:img83 
+                    },
+                    {
+                     pic:img84 
+                    },
+                    {
+                     pic:img85 
+                    },
+                    {
+                     pic:img86 
+                    },
+                    {
+                     pic:img87   
+                    },
+                    {
+                     pic:img88   
+                    },
+                    {
+                     pic:img89   
+                    },
+                    {
+                     pic:img90   
+                    },
+                    {
+                     pic:img91   
+                    },
+                    {
+                     pic:img92   
+                    },
+                    {
+                     pic:img93   
+                    },
+                    {
+                     pic:img94   
+                    },
+                    {
+                     pic:img95   
+                    },
+                    {
+                     pic:img96   
+                    },
+                    {
+                     pic:img97   
+                    },
+                    {
+                     pic:img98   
+                    },
+                    {
+                     pic:img99   
                     }
             ]
         }
