@@ -15,6 +15,7 @@ export default {
         body: ['Amazon Ember']
       },
       width: {
+        '34': '8.5rem',
         '51': '12.75rem',
         '59': '14.75rem',
         '76': '19rem',
@@ -27,6 +28,7 @@ export default {
       },
       height: {
         '15': '3.75rem',
+        '29': '7.3rem',
         '51': '12.75rem',
         '61': '15.25rem',
         '65': '16.2rem',
@@ -42,6 +44,7 @@ export default {
         '68': '17rem',
         '220': '55rem',
         '284': '71rem',
+        '480': '120rem',
       }
     },
   },

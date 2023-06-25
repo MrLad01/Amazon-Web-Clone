@@ -36,6 +36,14 @@ const Body = () => {
                 <Slider number={1} />
             </div>
         </div>
+        <div className="absolute top-480 z-10">
+            <div className="grid grid-cols-4 gap-x-4 mx-5">
+                <Cards number={7} imgno={1} />
+                <Cards number={8} imgno={4} />
+                <Cards number={9} imgno={1} />
+                <Cards number={10} imgno={1} />
+            </div>
+        </div>
 
     </div>
   )
