@@ -44,6 +44,11 @@ const Body = () => {
                 <Cards number={10} imgno={1} />
             </div>
         </div>
+        <div className="absolute top-590 z-10">
+            <div className="grid grid-cols-4 gap-x-4 mx-5">
+                <Slider number={2} />
+            </div>
+        </div>
 
     </div>
   )
