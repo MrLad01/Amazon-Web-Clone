@@ -52,7 +52,7 @@ const Body = () => {
         <div className='absolute top-688 z-10'>
             <div className="bg-white h-93 w-324 px-5 py-6 mx-5">
                 <div className="flex gap-x-3">
-                <h2 className='text-xl font-bold'></h2>
+                <h2 className='text-xl font-bold'>Amazon Live | Shop livestreams</h2>
                 </div>
             </div>
         </div>
