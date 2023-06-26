@@ -4,12 +4,20 @@ import img18 from '../images/img18.jpg'
 import { Link } from 'react-router-dom';
 import Cards from '../subcomponents/Cards'
 import Slider from '../subcomponents/Slide';
+import { useRef } from 'react';
 
 
 const Body = () => {
+
+
+    const inputRef = useRef();
+    const focusInput = () => {
+        inputRef.current.focus();
+    }
+
   return (
     <div className='relative'>
-        <Background />
+        <Background ref={inputRef} />
         <div className='absolute top-64 z-10'>
             <div className='grid grid-rows-2 grid-cols-4 gap-y-4 gap-x-5 mx-5 items-center justify-center'>
                 <Cards number={0} imgno={1} deal={true}/>
@@ -54,7 +62,7 @@ const Body = () => {
             <div className="bg-white h-93 w-324 px-5 py-6 mx-5">
                 <div className="flex gap-x-3">
                 <h2 className='text-xl font-bold'>Amazon Live | Shop livestreams</h2>
-                <Link to="" className='text-sm text-blue-500 mt-1'>See more from Amazon Live</Link>
+                <Link to="" className='text-sm text-blue-500 mt-1' onClick={focusInput}>See more from Amazon Live</Link>
                 </div>
                 <div>
                     <video  className='h-61 w-109'>
