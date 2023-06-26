@@ -57,7 +57,7 @@ const Body = () => {
                 <Link to="" className='text-sm text-blue-500 mt-1'>See more from Amazon Live</Link>
                 </div>
                 <div>
-                    <video src={advert} className='h-61 w-109'/>
+                    <video src={advert} className='h-61 w-109'>Your browser cannot load this</video>
                 </div>
             </div>
         </div>
