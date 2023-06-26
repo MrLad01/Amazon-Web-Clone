@@ -1,10 +1,10 @@
 import Background from '../subcomponents/Background'
 import img18 from '../images/img18.jpg'
-// import advert from "../images/advert.mp4"
+import advert from "../images/advert.mp4"
 import { Link } from 'react-router-dom';
 import Cards from '../subcomponents/Cards'
 import Slider from '../subcomponents/Slide';
-import { useRef } from 'react';
+import { useRef, useEffect } from 'react';
 
 
 const Body = () => {
@@ -14,6 +14,41 @@ const Body = () => {
     const focusInput = () => {
         inputRef.current.focus();
     }
+
+    const videoRef = useRef(null);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const videoElement = videoRef.current;
+        const videoTopPosition = videoElement.getBoundingClientRect().top;
+        const videoHeight = videoElement.offsetHeight;
+        const windowHeight = window.innerHeight;
+  
+        // Calculate the position threshold based on the video height
+        const threshold = videoHeight * 0.5;
+  
+        // Check if the video is more than 50% visible in the viewport
+        const isVideoVisible = videoTopPosition - threshold < windowHeight && videoTopPosition + videoHeight - threshold > 0;
+  
+        if (isVideoVisible && videoElement.paused) {
+          videoElement.play();
+        } else if (!isVideoVisible && !videoElement.paused) {
+          videoElement.pause();
+        }
+      };
+  
+      // Attach the scroll event listener
+      window.addEventListener('scroll', handleScroll);
+  
+      // Clean up the event listener on component unmount
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+
+
+
+
 
   return (
     <div className='relative'>
@@ -65,8 +100,8 @@ const Body = () => {
                 <Link to="" className='text-sm text-blue-500 mt-1' onClick={focusInput}>See more from Amazon Live</Link>
                 </div>
                 <div>
-                    <video  className='h-61 w-109'>
-                        <source src="../images/advert.mp4" type='video/mp4' />
+                    <video  className='h-61 w-109' ref={videoRef} controls autoPlay>
+                        <source src={advert} type='video/mp4' />
                         Your browser cannot load this</video>
                 </div>
             </div>
