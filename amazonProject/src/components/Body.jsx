@@ -1,6 +1,6 @@
 import Background from '../subcomponents/Background'
 import img18 from '../images/img18.jpg'
-import advert from "../images/advert.mp4"
+// import advert from "../images/advert.mp4"
 import { Link } from 'react-router-dom';
 import Cards from '../subcomponents/Cards'
 import Slider from '../subcomponents/Slide';
@@ -57,7 +57,9 @@ const Body = () => {
                 <Link to="" className='text-sm text-blue-500 mt-1'>See more from Amazon Live</Link>
                 </div>
                 <div>
-                    <video src={advert} className='h-61 w-109'>Your browser cannot load this</video>
+                    <video  className='h-61 w-109'>
+                        <source src="../images/advert.mp4" type='video/mp4' />
+                        Your browser cannot load this</video>
                 </div>
             </div>
         </div>
