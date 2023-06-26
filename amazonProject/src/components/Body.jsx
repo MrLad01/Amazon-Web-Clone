@@ -1,5 +1,6 @@
 import Background from '../subcomponents/Background'
 import img18 from '../images/img18.jpg'
+import advert from "../images/advert.mp4"
 import { Link } from 'react-router-dom';
 import Cards from '../subcomponents/Cards'
 import Slider from '../subcomponents/Slide';
@@ -54,6 +55,9 @@ const Body = () => {
                 <div className="flex gap-x-3">
                 <h2 className='text-xl font-bold'>Amazon Live | Shop livestreams</h2>
                 <Link to="" className='text-sm text-blue-500 mt-1'>See more from Amazon Live</Link>
+                </div>
+                <div>
+                    <video src={advert} className='h-61 w-109'/>
                 </div>
             </div>
         </div>
