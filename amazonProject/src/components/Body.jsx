@@ -49,6 +49,9 @@ const Body = () => {
                 <Slider number={2} />
             </div>
         </div>
+        <div className='absolute top-688 z-10'>
+            <div className="bg-white h-93 w-324 px-5 py-6 mx-5"></div>
+        </div>
 
     </div>
   )
