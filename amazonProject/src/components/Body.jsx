@@ -100,7 +100,7 @@ const Body = () => {
                 <Link to="" className='text-sm text-blue-500 mt-1' onClick={focusInput}>See more from Amazon Live</Link>
                 </div>
                 <div>
-                    <video  className='h-61 w-109' ref={videoRef} controls autoPlay>
+                    <video  className='h-61 w-109 mt-4' ref={videoRef} controls autoPlay>
                         <source src={advert} type='video/mp4' />
                         Your browser cannot load this</video>
                 </div>
