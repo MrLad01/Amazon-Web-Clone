@@ -7,6 +7,7 @@ export default {
     "./src/pages/Home.jsx",
     "./src/subcomponents/Background.jsx",
     "./src/subcomponents/Cards.jsx",
+    "./src/subcomponents/Card2.jsx",
     "./src/subcomponents/Slide.jsx",
   ],
   theme: {
