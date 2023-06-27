@@ -2,7 +2,7 @@ import { Swiper } from "swiper/react"
 import data3 from "../data/data3"
 
 
-const Card2 = ({topic,slide, discount, ph, pw, ih, iw, more, number, s, background}) => {
+const Card2 = ({topic,slide, discount, ph, pw, ih, iw, more, number, s, background, tw}) => {
 
    const files = data3[number].map((data) => { 
 
@@ -10,10 +10,10 @@ const Card2 = ({topic,slide, discount, ph, pw, ih, iw, more, number, s, backgrou
     <div className= {`h-${ph} w-${pw} grid`}>
       {topic && <h2>{data.title}</h2>}
       {slide ? Swiper :
-      background ? <div className={`h-${ih} w-${iw} bg-slate-100 justify-center items-center flex`}><img src={data.img} alt="" className={`h-${ih} w-${iw} mb-3 object-cover`} /></div> : <img src={data.img} alt="" className={`h-${ih} w-${iw} mb-3 object-cover`} />}
+      background ? <div className={`h-${ih} w-${iw} bg-slate-100 justify-center items-center flex`}><img src={data.img} alt="" className={`h-${ih} w-${iw} mb-3 object-cover mix-blend-multiply`} /></div> : <img src={data.img} alt="" className={`h-${ih} w-${iw} mb-3 object-cover`} />}
 
-      <div w-10 h-10 bg-red-700 flex flex-wrap>
-        <h6 className={`line-clamp-2 text-${s} w-${iw} whitespace-normal `}>{data.cap}</h6>
+      <div className={` flex flex-wrap my-2 `}>
+        <h6 className={`line-clamp-3 text-${s} w-${tw}`}>{data.cap}</h6>
       </div>
 
       <div className="flex">

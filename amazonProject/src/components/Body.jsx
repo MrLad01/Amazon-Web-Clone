@@ -115,25 +115,26 @@ const Body = () => {
                             <source src={advert} type='video/mp4' />
                             Your browser cannot load this</video>
                     </div>
-                    <div className=''>
+                    <div >
                         <Swiper
                             modules={[Navigation, Autoplay]}
                             navigation
                             autoplay
+                            spaceBetween={10}
                             slidesPerView={4}
-                            className='line-clamp-2 h-60 w-173 mt-3'
+                            className='line-clamp-2 h-71 w-200 mt-3'
                         >
                             <SwiperSlide>
-                                <Card2 number={0} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" />
+                                <Card2 number={0} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={1} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" />
+                                <Card2 number={1} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={2} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" />
+                                <Card2 number={2} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={3} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" />
+                                <Card2 number={3} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
                             </SwiperSlide>
                         </Swiper>
                     </div>
