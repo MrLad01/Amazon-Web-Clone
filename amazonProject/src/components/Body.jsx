@@ -1,5 +1,6 @@
 import Background from '../subcomponents/Background'
 import img18 from '../images/img18.jpg'
+import img101 from '../images/img101.jpg'
 import advert from "../images/advert.mp4"
 import { Link } from 'react-router-dom';
 import Cards from '../subcomponents/Cards'
@@ -75,7 +76,7 @@ const Body = () => {
                     </div>
                     <div className='bg-white h-64 w-76 ml-1 relative'>
                         <Link to=""><img src={img18} alt="" className='object-fit h-64'/></Link> 
-                        <h3 className='absolute -bottom-4 right-0 text-xs mr-1 text-gray-800'>Sponsored</h3>
+                        <h3 className='absolute -bottom-4 right-0 text-xxs mr-1 text-gray-800'>Sponsored</h3>
                     </div>
                 </div>
                 <Cards number={3} imgno={1} deal={false} />
@@ -120,21 +121,24 @@ const Body = () => {
                             modules={[Navigation, Autoplay]}
                             navigation
                             autoplay
-                            spaceBetween={10}
+                            spaceBetween={20}
                             slidesPerView={4}
-                            className='line-clamp-2 h-71 w-200 mt-3'
+                            className='line-clamp-2 h-71 w-192 mt-3'
                         >
                             <SwiperSlide>
-                                <Card2 number={0} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
+                                <Card2 number={0} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={1} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
+                                <Card2 number={1} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={2} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
+                                <Card2 number={2} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={3} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
+                                <Card2 number={3} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Card2 number={4} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
                             </SwiperSlide>
                         </Swiper>
                     </div>
