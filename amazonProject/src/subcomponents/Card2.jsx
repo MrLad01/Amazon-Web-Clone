@@ -2,16 +2,16 @@ import { Swiper } from "swiper/react"
 import data3 from "../data/data3"
 
 
-const Card2 = ({topic,slide, discount, ph, pw, ih, iw, c, more, number}) => {
+const Card2 = ({topic,slide, discount, ph, pw, ih, iw, c, more, number, s}) => {
 
-    data3[{number}].map((data)=>{ 
+   const files = data3[number].map((data) => { 
 
   return (
     <div className= {`h-${ph} w-${pw} grid`}>
       {topic && <h2>{data.title}</h2>}
       {slide ? Swiper :
       <img src={data.img} alt="" className={`h-${ih} w-${iw}`} />}
-      <h2 className={`line-clamp-${c}`}>{data.cap}</h2>
+      <h6 className={`line-clamp-${c} text-${s} w-${iw} whitespace-prewrap overflow-hidden`}>{data.cap}</h6>
       <div className="flex">
         <span>$</span>
         <span>{data.price1}</span>
@@ -28,6 +28,12 @@ const Card2 = ({topic,slide, discount, ph, pw, ih, iw, c, more, number}) => {
       </div>
     </div>
   ) })
+
+  return (
+    <>
+    {files}
+    </>
+  )
 }
 
 export default Card2

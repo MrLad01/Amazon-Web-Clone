@@ -5,7 +5,17 @@ import { Link } from 'react-router-dom';
 import Cards from '../subcomponents/Cards'
 import Slider from '../subcomponents/Slide';
 import { useRef, useEffect } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Autoplay } from 'swiper';
 
+
+
+// Import Swiper styles
+// import 'swiper/css/pagination';
+// import 'swiper/css/scrollbar';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import Card2 from '../subcomponents/Card2';
 
 const Body = () => {
 
@@ -99,17 +109,33 @@ const Body = () => {
                 <h2 className='text-xl font-bold'>Amazon Live | Shop livestreams</h2>
                 <Link to="" className='text-sm text-blue-500 mt-1' onClick={focusInput}>See more from Amazon Live</Link>
                 </div>
-                <div>
-                    <video  className='h-61 w-109 mt-4' ref={videoRef} controls autoPlay>
-                        <source src={advert} type='video/mp4' />
-                        Your browser cannot load this</video>
-                </div>
-                <div className='h-71 w-173'>
-                    <Swiper>
-                        <Swiperslide>
-                            
-                        </Swiperslide>
-                    </Swiper>
+                <div className="flex gap-x-10">
+                    <div>
+                        <video  className='h-61 w-109 mt-4' ref={videoRef} controls autoPlay>
+                            <source src={advert} type='video/mp4' />
+                            Your browser cannot load this</video>
+                    </div>
+                    <div className='h-71 w-173 mt-3'>
+                        <Swiper
+                            modules={[Navigation, Autoplay]}
+                            navigation
+                            autoplay
+                            slidesPerView={3}
+                        >
+                            <SwiperSlide>
+                                <Card2 number={0} ph={60} pw={36} ih={35} iw={36} c={2} slide={false} topic={false} discount={false} more={false} s="xs" />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Card2 number={1} ph={60} pw={36} ih={35} iw={36} c={3} slide={false} topic={false} discount={false} more={false} s="xs" />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Card2 number={2} ph={60} pw={36} ih={35} iw={36} c={3} slide={false} topic={false} discount={false} more={false} s="xs" />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Card2 number={3} ph={60} pw={36} ih={35} iw={36} c={3} slide={false} topic={false} discount={false} more={false} s="xs" />
+                            </SwiperSlide>
+                        </Swiper>
+                    </div>
                 </div>
             </div>
         </div>
