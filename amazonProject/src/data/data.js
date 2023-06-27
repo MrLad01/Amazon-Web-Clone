@@ -18,6 +18,7 @@ import img68 from '../images/img68.jpg'
 import img69 from '../images/img69.jpg'
 import img70 from '../images/img70.jpg'
 import img71 from '../images/img71.jpg'
+import img112 from "../images/img112.jpg"
 
 
 const data = [
@@ -145,6 +146,14 @@ const data = [
             head: "The pre-loved edit at ShopBop",
             img: img71,
             link: "See more at ShopBop"
+        }
+    ],
+    [
+        {
+            id: 11,
+            head: "Music to your ears",
+            img: img112,
+            link: "Save on audio products"
         }
     ]
 ]

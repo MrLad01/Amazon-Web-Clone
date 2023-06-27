@@ -150,7 +150,7 @@ const Body = () => {
         </div>
 
         <div className="absolute top-785 z-10">
-            <div className="grid grid-cols-4 gap-x-4 mx-5">
+            <div className="grid grid-cols-1 gap-x-4 mx-5">
                 <Slider number={3} />
             </div>
         </div>
@@ -158,6 +158,11 @@ const Body = () => {
         <div className="absolute top-884 z-10 mx-48 ">
             <img src={img138} alt="" className='w-243 h-63' />
             <h3 className='absolute right-0 text-xxs mr-1 text-gray-800'>Sponsored</h3>
+        </div>
+        <div className="absolute top-950 z-10">
+            <div className="grid grid-cols-4 grid-rows-1 ">
+                
+            </div>
         </div>
 
     </div>
