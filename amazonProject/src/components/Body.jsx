@@ -124,16 +124,16 @@ const Body = () => {
                             className='line-clamp-2 h-60 w-173 mt-3'
                         >
                             <SwiperSlide>
-                                <Card2 number={0} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} s="xs" />
+                                <Card2 number={0} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={1} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} s="xs" />
+                                <Card2 number={1} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={2} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} s="xs" />
+                                <Card2 number={2} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={3} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} s="xs" />
+                                <Card2 number={3} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" />
                             </SwiperSlide>
                         </Swiper>
                     </div>
