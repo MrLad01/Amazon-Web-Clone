@@ -149,6 +149,12 @@ const Body = () => {
             </div>
         </div>
 
+        <div className="absolute top-785 z-10">
+            <div className="grid grid-cols-4 gap-x-4 mx-5">
+                <Slider number={3} />
+            </div>
+        </div>
+
     </div>
   )
 }

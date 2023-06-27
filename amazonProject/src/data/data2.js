@@ -72,6 +72,25 @@ import img97 from "../images/img97.jpg"
 import img98 from "../images/img98.jpg"
 import img99 from "../images/img99.jpg"
 
+import img120 from "../images/img120.jpg"
+import img121 from "../images/img121.jpg"
+import img122 from "../images/img122.jpg"
+import img123 from "../images/img123.jpg"
+import img124 from "../images/img124.jpg"
+import img125 from "../images/img125.jpg"
+import img126 from "../images/img126.jpg"
+import img127 from "../images/img127.jpg"
+import img128 from "../images/img128.jpg"
+import img129 from "../images/img129.jpg"
+import img130 from "../images/img130.jpg"
+import img131 from "../images/img131.jpg"
+import img132 from "../images/img132.jpg"
+import img133 from "../images/img133.jpg"
+import img134 from "../images/img134.jpg"
+import img135 from "../images/img135.jpg"
+import img136 from "../images/img136.jpg"
+import img137 from "../images/img137.jpg"
+
 
 
 
@@ -358,6 +377,68 @@ const data2 = [
                     },
                     {
                      pic:img99   
+                    }
+            ]
+        }
+    ],
+    [
+        {
+            id: 3,
+            head: "Frequently repurchased in Home",
+            img: [
+                    {
+                     pic:img120   
+                    },
+                    {
+                     pic:img121   
+                    },
+                    {
+                     pic:img122   
+                    },
+                    {
+                     pic:img123   
+                    },
+                    {
+                     pic:img124   
+                    },
+                    {
+                     pic:img125   
+                    },
+                    {
+                     pic:img126   
+                    },
+                    {
+                     pic:img127   
+                    },
+                    {
+                     pic:img128   
+                    },
+                    {
+                     pic:img129   
+                    },
+                    {
+                     pic:img130   
+                    },
+                    {
+                     pic:img131   
+                    },
+                    {
+                     pic:img132   
+                    },
+                    {
+                     pic:img133   
+                    },
+                    {
+                     pic:img134   
+                    },
+                    {
+                     pic:img135   
+                    },
+                    {
+                     pic:img136   
+                    },
+                    {
+                     pic:img137   
                     }
             ]
         }
