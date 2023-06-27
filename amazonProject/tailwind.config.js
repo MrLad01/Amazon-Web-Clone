@@ -41,6 +41,7 @@ export default {
         'max': '281.25rem',
       }, 
       fontSize: {
+        'xxs': '0.6rem',
         '2sm': '0.9375rem',
       },
       spacing: {

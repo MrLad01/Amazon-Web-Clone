@@ -115,15 +115,15 @@ const Body = () => {
                             <source src={advert} type='video/mp4' />
                             Your browser cannot load this</video>
                     </div>
-                    <div className='h-71 w-173 mt-3'>
+                    <div className=''>
                         <Swiper
                             modules={[Navigation, Autoplay]}
                             navigation
                             autoplay
                             slidesPerView={4}
-                            className='line-clamp-2'
+                            className='line-clamp-2 h-60 w-173 mt-3'
                         >
-                            <SwiperSlide >
+                            <SwiperSlide>
                                 <Card2 number={0} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} s="xs" />
                             </SwiperSlide>
                             <SwiperSlide>
