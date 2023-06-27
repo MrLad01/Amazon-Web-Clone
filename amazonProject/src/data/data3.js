@@ -1,4 +1,5 @@
 import img100 from "../images/img100.jpg"
+import img101 from "../images/img101.jpg"
 import img102 from "../images/img102.jpg"
 import img103 from "../images/img103.jpg"
 import img104 from "../images/img104.jpg"
@@ -50,6 +51,14 @@ const data3 = [
             price2: 99
         }
     ],
+    [
+        {
+            id:6,
+            img: img101,
+            cap: "Watch more livestreams",
+            link: 'See more'
+        }
+    ]
 ]
 
 export default data3;

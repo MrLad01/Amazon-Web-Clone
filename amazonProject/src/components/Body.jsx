@@ -126,19 +126,22 @@ const Body = () => {
                             className='line-clamp-2 h-71 w-192 mt-3'
                         >
                             <SwiperSlide>
-                                <Card2 number={0} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
+                                <Card2 number={0} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} link={false} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={1} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
+                                <Card2 number={1} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} link={false} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={2} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
+                                <Card2 number={2} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} link={false} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={3} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
+                                <Card2 number={3} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} link={false} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={4} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} />
+                                <Card2 number={4} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} link={false} />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Card2 number={5} ph={60} pw={36} ih={32} iw={36} slide={false} topic={false} discount={false} more={false} background={true} s="xs" tw={24} link={true} />
                             </SwiperSlide>
                         </Swiper>
                     </div>
