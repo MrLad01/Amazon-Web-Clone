@@ -17,7 +17,7 @@ const Card2 = ({topic,slide, discount, ph, pw, ih, iw, more, number, s, backgrou
         <h6 className={`line-clamp-3 text-${s} w-${tw}`}>{data.cap}</h6>
       </div>
 
-      {link ? <Link >{data.link}</Link> : <div className="flex">
+      {link ? <Link className="text-sm text-blue-700 -mt-2" >{data.link}</Link> : <div className="flex">
         <span className="text-xxs">$</span>
         <span className="text-lg -mt-1">{data.price1}</span>
         <span className="text-xxs">{data.price2}</span>
