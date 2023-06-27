@@ -111,7 +111,7 @@ const Body = () => {
                 </div>
                 <div className="flex gap-x-10">
                     <div>
-                        <video  className='h-61 w-109 mt-4' ref={videoRef} controls autoPlay>
+                        <video  className='h-68 w-109 mt-1' ref={videoRef} controls autoPlay>
                             <source src={advert} type='video/mp4' />
                             Your browser cannot load this</video>
                     </div>
@@ -120,9 +120,10 @@ const Body = () => {
                             modules={[Navigation, Autoplay]}
                             navigation
                             autoplay
-                            slidesPerView={3}
+                            slidesPerView={4}
+                            className='line-clamp-2 h-60'
                         >
-                            <SwiperSlide>
+                            <SwiperSlide className='w-36 h-60'>
                                 <Card2 number={0} ph={60} pw={36} ih={35} iw={36} c={2} slide={false} topic={false} discount={false} more={false} s="xs" />
                             </SwiperSlide>
                             <SwiperSlide>

@@ -10,12 +10,16 @@ const Card2 = ({topic,slide, discount, ph, pw, ih, iw, c, more, number, s}) => {
     <div className= {`h-${ph} w-${pw} grid`}>
       {topic && <h2>{data.title}</h2>}
       {slide ? Swiper :
-      <img src={data.img} alt="" className={`h-${ih} w-${iw}`} />}
-      <h6 className={`line-clamp-${c} text-${s} w-${iw} whitespace-prewrap overflow-hidden`}>{data.cap}</h6>
+      <img src={data.img} alt="" className={`h-${ih} w-${iw} mb-3`} />}
+
+      <div w-10 h-10 bg-red-700 flex flex-wrap>
+        <h6 className={`line-clamp-2 text-${s} w-${iw} whitespace-normal `}>{data.cap}</h6>
+      </div>
+
       <div className="flex">
-        <span>$</span>
-        <span>{data.price1}</span>
-        <span>{data.price2}</span>
+        <span className="text-xs">$</span>
+        <span className="text-s">{data.price1}</span>
+        <span className="text-xs">{data.price2}</span>
         {discount && <span></span>}
         {more && 
         <div className="flex">
