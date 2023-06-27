@@ -121,19 +121,19 @@ const Body = () => {
                             navigation
                             autoplay
                             slidesPerView={4}
-                            className='line-clamp-2 h-60'
+                            className='line-clamp-2'
                         >
-                            <SwiperSlide className='w-36 h-60'>
-                                <Card2 number={0} ph={60} pw={36} ih={35} iw={36} c={2} slide={false} topic={false} discount={false} more={false} s="xs" />
+                            <SwiperSlide >
+                                <Card2 number={0} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} s="xs" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={1} ph={60} pw={36} ih={35} iw={36} c={3} slide={false} topic={false} discount={false} more={false} s="xs" />
+                                <Card2 number={1} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} s="xs" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={2} ph={60} pw={36} ih={35} iw={36} c={3} slide={false} topic={false} discount={false} more={false} s="xs" />
+                                <Card2 number={2} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} s="xs" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <Card2 number={3} ph={60} pw={36} ih={35} iw={36} c={3} slide={false} topic={false} discount={false} more={false} s="xs" />
+                                <Card2 number={3} ph={60} pw={36} ih={35} iw={36} slide={false} topic={false} discount={false} more={false} s="xs" />
                             </SwiperSlide>
                         </Swiper>
                     </div>

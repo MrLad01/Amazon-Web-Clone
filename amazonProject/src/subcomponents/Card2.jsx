@@ -2,7 +2,7 @@ import { Swiper } from "swiper/react"
 import data3 from "../data/data3"
 
 
-const Card2 = ({topic,slide, discount, ph, pw, ih, iw, c, more, number, s}) => {
+const Card2 = ({topic,slide, discount, ph, pw, ih, iw, more, number, s}) => {
 
    const files = data3[number].map((data) => { 
 
