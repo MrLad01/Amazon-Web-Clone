@@ -104,6 +104,13 @@ const Body = () => {
                         <source src={advert} type='video/mp4' />
                         Your browser cannot load this</video>
                 </div>
+                <div className='h-71 w-173'>
+                    <Swiper>
+                        <Swiperslide>
+                            
+                        </Swiperslide>
+                    </Swiper>
+                </div>
             </div>
         </div>
 
