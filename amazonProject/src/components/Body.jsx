@@ -1,6 +1,6 @@
 import Background from '../subcomponents/Background'
 import img18 from '../images/img18.jpg'
-import img101 from '../images/img101.jpg'
+import img138 from '../images/img138.jpg'
 import advert from "../images/advert.mp4"
 import { Link } from 'react-router-dom';
 import Cards from '../subcomponents/Cards'
@@ -153,6 +153,11 @@ const Body = () => {
             <div className="grid grid-cols-4 gap-x-4 mx-5">
                 <Slider number={3} />
             </div>
+        </div>
+
+        <div className="absolute top-884 z-10 mx-48 ">
+            <img src={img138} alt="" className='w-243 h-63' />
+            <h3 className='absolute right-0 text-xxs mr-1 text-gray-800'>Sponsored</h3>
         </div>
 
     </div>
