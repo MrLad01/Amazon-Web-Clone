@@ -138,6 +138,10 @@ const data3 = [
             title: "Best sellers in RV Parts & Accessories",
             img: img139,
             cap: [
+                    "Camco TST MAX Camper/RV Toilet Treatment Drop-INs | Control Unwanted Odors and Break Down Waste and Tissue | Safe Septic Tank Treatment | Orange Scent | 30-Pack (41183)",
+                    "Camco TastePURE Camper/RV Water Filter & Hose Protector | Inline Water Filter Reduces Bad Taste, Odor, Chlorine & Sediment | Ideal for RVs, Campers, Travel Trailers, Boats | Made in the USA | (40043)",
+                    "Champion Power Equipment 200961 2500-Watt Dual Fuel Portable Inverter Generator, Ultralight",
+                    "150W Power Inverter 12V DC to 110V AC Car Plug Adapter Outlet Converter with 3.1A Dual USB AC car Charger for Laptop Computer"
 
                  ],
             price1: [
