@@ -16,7 +16,7 @@ const Card3 = ({discount, ph, pw, ih, iw, more, number, s, tw}) => {
   return (
     <div className= {`h-${ph} w-${pw} grid bg-white px-5 pt-2 pb-6 content-around `}>
       <h2 className='text-xl font-bold' >{data.title}</h2>
-      <img src={swap} alt="" className={`h-${ih} w-${iw} mt-2 object-contain justify-self-center`} />
+      <img src={swap} alt="" className={`h-${ih} w-${iw} mt-2 object-cover justify-self-center`} />
       <div className={` flex flex-wrap my-2 `}>
         <h6 className={`-mt-3 line-clamp-2 text-${s} w-${tw}`}>{swap1}</h6>
       </div>
