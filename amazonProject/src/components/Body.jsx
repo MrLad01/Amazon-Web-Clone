@@ -164,6 +164,7 @@ const Body = () => {
             <div className="grid grid-cols-4 grid-rows-1 ">
                 <Card3 number={7} ph={60} pw={36} ih={48} iw={36}  discount={true} more={true} s="sm" tw={24} />
                 <Cards number={11} imgno={1} />
+                <Card3 number={8} ph={60} pw={36} ih={48} iw={36}  discount={true} more={true} s="sm" tw={24} />
             </div>
         </div>
 
