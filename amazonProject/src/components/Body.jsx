@@ -161,7 +161,7 @@ const Body = () => {
         </div>
         <div className="absolute top-950 z-10">
             <div className="grid grid-cols-4 grid-rows-1 ">
-                
+                <Cards number={11} imgno={1} />
             </div>
         </div>
 
