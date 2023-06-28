@@ -4,6 +4,7 @@ import img138 from '../images/img138.jpg'
 import advert from "../images/advert.mp4"
 import { Link } from 'react-router-dom';
 import Cards from '../subcomponents/Cards'
+import Card3 from '../subcomponents/Card3'
 import Slider from '../subcomponents/Slide';
 import { useRef, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -162,6 +163,7 @@ const Body = () => {
         <div className="absolute top-950 z-10">
             <div className="grid grid-cols-4 grid-rows-1 ">
                 <Cards number={11} imgno={1} />
+                <Card3 number={7} ph={60} pw={36} ih={32} iw={36}  discount={true} more={true} s="xs" tw={24} />
             </div>
         </div>
 

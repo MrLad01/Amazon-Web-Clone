@@ -116,7 +116,7 @@ const data3 = [
             title: "Best sellers in RV Parts & Accessories",
             img: img139,
             price1: 17,
-            price2: 97,
+            price2: 9,
             discount: "$22.99", 
             more: [
                 img139,

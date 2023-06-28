@@ -10,7 +10,7 @@ const Card3 = ({discount, ph, pw, ih, iw, more, number, s, tw}) => {
     const [swap, setSwap] = useState(data.img)
 
   return (
-    <div className= {`h-${ph} w-${pw} grid`}>
+    <div className= {`h-${ph} w-${pw} grid bg-white `}>
       <h2>{data.title}</h2>
       <img src={swap} alt="" className={`h-${ih} w-${iw} mb-3 object-scale-down`} />
       <div className={` flex flex-wrap my-2 `}>
@@ -20,7 +20,7 @@ const Card3 = ({discount, ph, pw, ih, iw, more, number, s, tw}) => {
      <div className="flex">
         <span className="text-xxs">$</span>
         <span className="text-lg -mt-1">{data.price1}</span>
-        <span className="text-xxs">{data.price2}</span>
+        <span className="text-xxs">{data.price2}{data.price2}</span>
         {discount && <span className="text-sm">{data.discount}</span>}
         {more && 
         <div className="flex">
