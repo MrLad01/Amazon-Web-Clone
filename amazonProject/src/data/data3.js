@@ -99,9 +99,31 @@ const data3 = [
             id:8,
             title: "Best sellers in this category",
             img: img115,
-            price1: 199,
-            price2: 0,
-            discount: "$249.00",
+            cap: [
+                "Apple AirPods Pro (2nd Generation) Wireless Earbuds, Up to 2X More Active Noise Cancelling, Adaptive Transparency, Personalized Spatial Audio, MagSafe Charging Case, Bluetooth Headphones for iPhone",
+                "Apple EarPods Headphones with Lightning Connector. Microphone with Built-in Remote to Control Music, Phone Calls, and Volume. Wired Earbuds for iPhone",
+                "JBL GO2 - Waterproof Ultra Portable Bluetooth Speaker - Red",
+                "Beats Studio3 Wireless Noise Cancelling Over-Ear Headphones - Apple W1 Headphone Chip, Class 1 Bluetooth, 22 Hours of Listening Time, Built-in Microphone - Matte Black (Latest Model)"
+
+            ],
+            price1: [
+                      199,
+                      16,
+                      22,
+                      169
+                    ],
+            price2: [
+                        0,
+                        9,
+                        8,
+                        0
+                    ],
+            discount: [
+                        "$249.00",
+                        "$29.00",
+                        "$39.95",
+                        "$349.95"
+                    ],
             more: [
                 img116,
                 img117,
