@@ -171,7 +171,7 @@ const Body = () => {
             </div>
         </div>
         <div className="absolute top-1060 z-10 ml-4">
-            <Slider number={4} w={243} />
+            <Slider number={4} w={248} />
         </div>
 
     </div>
