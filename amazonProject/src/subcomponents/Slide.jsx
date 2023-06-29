@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 
-const Slider = ({number, deal, discount, nw, w}) => {
+const Slider = ({number, deal, discount, nw, wx}) => {
 
   const files = data2[number].map((file) => {
   return (
@@ -25,7 +25,7 @@ const Slider = ({number, deal, discount, nw, w}) => {
               slidesPerGroup={5}
               spaceBetween={10}
               scrollbar={{ draggable: true }}
-              className={`my-2 pb-2 h-68 w-${w}`}
+              className= {`my-2 pb-1 h-68 w-317`}
   >
             { file.img.map((image) => (      
               <SwiperSlide>
