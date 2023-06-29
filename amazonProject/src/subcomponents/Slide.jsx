@@ -25,7 +25,7 @@ const Slider = ({number, deal, discount, w}) => {
               slidesPerGroup={5}
               spaceBetween={10}
               scrollbar={{ draggable: true }}
-              className="my-2 pb-2 h-68 w-317"
+              className={`my-2 pb-2 h-68 w-${w-7}`}
   >
             { file.img.map((image) => (      
               <SwiperSlide>
