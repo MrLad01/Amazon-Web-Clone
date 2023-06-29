@@ -91,7 +91,7 @@ const data3 = [
             ],
             cap: "Samsung Galaxy S20 5G, 128GB, Cosmic Gray - Unlocked (Renewed)",
             price1: 229,
-            price2: 0
+            price2: 90
         }
     ],
     [

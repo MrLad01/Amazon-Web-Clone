@@ -23,7 +23,7 @@ const Card2 = ({topic,slide, discount, ph, pw, ih, iw, more, number, s, backgrou
           spaceBetween={10}
           slidesPerView={2}
           navigation
-          className={`w-${iw} h-61`}
+          className={`w-${iw} h-56`}
         >
           <SwiperSlide><img src={data.slide[0]} alt="" /></SwiperSlide>
           <SwiperSlide><img src={data.slide[1]} alt="" /></SwiperSlide>
