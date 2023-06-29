@@ -1,13 +1,13 @@
 import { Swiper, SwiperSlide } from "swiper/react"
 import data3 from "../data/data3"
 import { Link } from "react-router-dom"
-import SwiperCore, { Navigation, Pagination } from 'swiper';
+import SwiperCore, { Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([Navigation]);
 
 
 const Card2 = ({topic,slide, discount, ph, pw, ih, iw, more, number, s, background, tw, link}) => {
@@ -19,11 +19,10 @@ const Card2 = ({topic,slide, discount, ph, pw, ih, iw, more, number, s, backgrou
       {topic && <h2>{data.title}</h2>}
       {slide ? <div className={`h-${ih+4} w-${iw+4} bg-slate-100 justify-center items-center flex carousel-slider`}>
         <Swiper
-          modules={[Navigation, Pagination]}
+          modules={[Navigation]}
           spaceBetween={10}
           slidesPerView={1}
           navigation
-          pagination={{ clickable: true }}
           className={`w-${iw}`}
         >
           <SwiperSlide><img src={data.slide[0]} alt="" /></SwiperSlide>
