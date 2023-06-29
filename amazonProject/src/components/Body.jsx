@@ -168,8 +168,8 @@ const Body = () => {
             </div>
         </div>
         <div className="absolute top-1100 z-10">
-                <div className="h-72 w-72 bg-white">
-                    <Card2 number={6} ph={60} pw={36} ih={32} iw={36} slide={true} topic={true} discount={false} more={false} background={false} s="xs" tw={24} link={false} />
+                <div className="h-72 w-80 bg-white">
+                    <Card2 number={6} ph={60} pw={72} ih={32} iw={64} slide={true} topic={true} discount={false} more={false} background={false} s="xs" tw={24} link={false} />
                 </div>
         </div>
 
