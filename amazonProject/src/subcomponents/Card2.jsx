@@ -15,9 +15,9 @@ const Card2 = ({topic,slide, discount, ph, pw, ih, iw, more, number, s, backgrou
    const files = data3[number].map((data) => { 
 
   return (
-    <div className= {`h-${ph} w-${pw} grid`}>
+    <div className= {`h-${ph} w-${pw} grid content-around`}>
       {topic && <h2>{data.title}</h2>}
-      {slide ? <div className={`h-${ih+4} w-${iw+4} bg-slate-100 justify-center items-center flex carousel-slider`}>
+      {slide ? <div className="carousel-slider">
         <Swiper
           modules={[Navigation]}
           spaceBetween={10}
