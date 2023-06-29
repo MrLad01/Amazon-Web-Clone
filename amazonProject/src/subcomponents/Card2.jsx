@@ -16,7 +16,7 @@ const Card2 = ({topic,slide, discount, ph, pw, ih, iw, more, number, s, backgrou
 
   return (
     <div className= {`h-${ph} w-${pw} grid content-around`}>
-      {topic && <h2>{data.title}</h2>}
+      {topic && <h2 className="my-3 text-xl font-bold">{data.title}</h2>}
       {slide ? <div className="carousel-slider">
         <Swiper
           modules={[Navigation]}

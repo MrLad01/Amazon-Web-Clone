@@ -162,14 +162,14 @@ const Body = () => {
         </div>
         <div className="absolute top-950 z-10">
             <div className="grid grid-cols-4 grid-rows-1 gap-x-4 ">
+                <Card2 number={6} ph={60} pw={72} ih={32} iw={64} slide={true} topic={true} discount={false} more={false} background={false} s="md" tw={24} link={false} />
                 <Card3 number={7} ph={60} pw={80} ih={48} iw={36}  discount={true} more={true} s="sm" tw={24} />
                 <Cards number={11} imgno={1} />
                 <Card3 number={8} ph={60} pw={80} ih={48} iw={36}  discount={true} more={true} s="sm" tw={24} />
             </div>
         </div>
         <div className="absolute top-1100 z-10">
-                <div className="h-106 w-80 bg-white content-around">
-                    <Card2 number={6} ph={60} pw={72} ih={32} iw={64} slide={true} topic={true} discount={false} more={false} background={false} s="xs" tw={24} link={false} />
+                <div className="h-106 w-80 bg-white content-around px-5">
                 </div>
         </div>
 
