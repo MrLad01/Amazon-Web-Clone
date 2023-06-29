@@ -89,7 +89,7 @@ const data3 = [
                 img110,
                 img111
             ],
-            caption: "Samsung Galaxy S20 5G, 128GB, Cosmic Gray - Unlocked (Renewed)",
+            cap: "Samsung Galaxy S20 5G, 128GB, Cosmic Gray - Unlocked (Renewed)",
             price1: 229,
             price2: 0
         }
