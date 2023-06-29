@@ -91,6 +91,37 @@ import img135 from "../images/img135.jpg"
 import img136 from "../images/img136.jpg"
 import img137 from "../images/img137.jpg"
 
+import img143 from "../images/img143.jpg"
+import img144 from "../images/img144.jpg"
+import img145 from "../images/img145.jpg"
+import img146 from "../images/img146.jpg"
+import img147 from "../images/img147.jpg"
+import img148 from "../images/img148.jpg"
+import img149 from "../images/img149.jpg"
+import img150 from "../images/img150.jpg"
+import img151 from "../images/img151.jpg"
+import img152 from "../images/img152.jpg"
+import img153 from "../images/img153.jpg"
+import img154 from "../images/img154.jpg"
+import img155 from "../images/img155.jpg"
+import img156 from "../images/img156.jpg"
+import img157 from "../images/img157.jpg"
+import img158 from "../images/img158.jpg"
+import img159 from "../images/img159.jpg"
+import img160 from "../images/img160.jpg"
+import img161 from "../images/img161.jpg"
+import img162 from "../images/img162.jpg"
+import img163 from "../images/img163.jpg"
+import img164 from "../images/img164.jpg"
+import img165 from "../images/img165.jpg"
+import img166 from "../images/img166.jpg"
+import img167 from "../images/img167.jpg"
+import img168 from "../images/img168.jpg"
+import img169 from "../images/img169.jpg"
+import img170 from "../images/img170.jpg"
+import img171 from "../images/img171.jpg"
+import img172 from "../images/img172.jpg"
+
 
 
 
@@ -439,6 +470,104 @@ const data2 = [
                     },
                     {
                      pic:img137   
+                    }
+            ]
+        }
+    ],
+    [
+        {
+            id: 4,
+            head: "Best Sellers in Sports & Outdoors",
+            img: [
+                    {
+                     pic:img143   
+                    },
+                    {
+                     pic:img144   
+                    },
+                    {
+                     pic:img145   
+                    },
+                    {
+                     pic:img146   
+                    },
+                    {
+                     pic:img147   
+                    },
+                    {
+                     pic:img148   
+                    },
+                    {
+                     pic:img149   
+                    },
+                    {
+                     pic:img150   
+                    },
+                    {
+                     pic:img151   
+                    },
+                    {
+                     pic:img152   
+                    },
+                    {
+                     pic:img153  
+                    },
+                    {
+                     pic:img154   
+                    },
+                    {
+                     pic:img155  
+                    },
+                    {
+                     pic:img156  
+                    },
+                    {
+                     pic:img157  
+                    },
+                    {
+                     pic:img158   
+                    },
+                    {
+                     pic:img159  
+                    },
+                    {
+                     pic:img160  
+                    },
+                    {
+                     pic:img161  
+                    },
+                    {
+                     pic:img162  
+                    },
+                    {
+                     pic:img163  
+                    },
+                    {
+                     pic:img164  
+                    },
+                    {
+                     pic:img165  
+                    },
+                    {
+                     pic:img166  
+                    },
+                    {
+                     pic:img167  
+                    },
+                    {
+                     pic:img168  
+                    },
+                    {
+                     pic:img169  
+                    },
+                    {
+                     pic:img170  
+                    },
+                    {
+                     pic:img171  
+                    },
+                    {
+                     pic:img172  
                     }
             ]
         }

@@ -7,11 +7,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 
-const Slider = ({number, deal, discount}) => {
+const Slider = ({number, deal, discount, w}) => {
 
   const files = data2[number].map((file) => {
   return (
-    <div className="bg-white h-93 w-324 px-5 py-6 grid">
+    <div className={`bg-white h-93 w-${w} px-5 py-6 grid`}>
         <div className='flex gap-x-3'>
             <h2 className='text-xl font-bold'>{file.head}</h2>
            {deal && <Link to="" className='text-sm text-blue-500 mt-1'>{file.link}</Link>}
@@ -46,6 +46,7 @@ const Slider = ({number, deal, discount}) => {
           </Swiper>
         </div>
     </div>
+    
      )
   })
 

@@ -88,8 +88,8 @@ const Body = () => {
         </div>
         <div className="absolute top-284 z-10">
             <div className="grid grid-rows-2 gap-y-4 mx-5">
-                <Slider number={0} deal={true} discount={true} />
-                <Slider number={1} />
+                <Slider number={0} deal={true} discount={true} w={324} />
+                <Slider number={1} w={324} />
             </div>
         </div>
         <div className="absolute top-480 z-10">
@@ -102,7 +102,7 @@ const Body = () => {
         </div>
         <div className="absolute top-590 z-10">
             <div className="grid grid-cols-4 gap-x-4 mx-5">
-                <Slider number={2} />
+                <Slider number={2} w={324} />
             </div>
         </div>
         <div className='absolute top-688 z-10'>
@@ -152,7 +152,7 @@ const Body = () => {
 
         <div className="absolute top-785 z-10">
             <div className="grid grid-cols-1 gap-x-4 mx-5">
-                <Slider number={3} />
+                <Slider number={3} w={324} />
             </div>
         </div>
 
@@ -170,7 +170,8 @@ const Body = () => {
                 <Card3 number={8} ph={60} pw={80} ih={48} iw={36}  discount={true} more={true} s="sm" tw={24} />
             </div>
         </div>
-        <div className="absolute top-1100 z-10">
+        <div className="absolute top-1060 z-10 ml-4">
+            <Slider number={4} w={243} />
         </div>
 
     </div>
