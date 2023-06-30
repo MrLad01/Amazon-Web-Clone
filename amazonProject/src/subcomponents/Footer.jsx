@@ -9,7 +9,7 @@ const Footer = ({focusInput}) => {
             <h3 className='text-sm text-white self-center'>Back to top</h3>
         </button>
     </Link>
-    <div className="absolute top-1218 z-10 w-full bg-gray-800 h-116 pt-12 pb-6 px-44 grid grid-cols-4 gap-x-16 text-white">
+    <div className="absolute top-1218 z-10 w-full bg-gray-800 h-116 pt-12 pb-6 px-44 grid grid-cols-4 gap-x-16 text-white border-b">
         <div className="text-sm">
             <h3 className="text-base mb-2 font-semibold">Get to Know Us</h3>
             <div className="grid gap-y-2 font-light ">
@@ -68,6 +68,7 @@ const Footer = ({focusInput}) => {
             </div>
         </div>
     </div>
+    <div className="bg-gray-800 h-48"></div>
    </>
   )}
 export default Footer
