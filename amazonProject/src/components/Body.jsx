@@ -173,7 +173,18 @@ const Body = () => {
         <div className="absolute top-1060 z-10 ml-4">
             <Slider number={4} nw={324} wx={196} />
         </div>
-        <div className='absolute top-1158 z-10 w-full h-48 bg-white'></div>
+        <div className='absolute top-1158 z-10 w-full h-48 bg-white'>
+            <div className='mt-12 mb-16 border-t border-b  w-full'>
+                <div className='grid justify-center pt-8 pb-4'>
+                    <h3 className='text-sm m-1'>See specialized recommendations</h3>
+                    <button className='w-56 h-7 shadow-inner bg-gradient-to-b from-amber-300 via-amber-400 to-amber-400 rounded-md text-sm font-semibold'>Sign in</button>
+                    <div className='flex text-xs self-center'>
+                       <h4>New customer?</h4>
+                       <Link>Start here</Link> 
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   )
 }
