@@ -12,59 +12,59 @@ const Footer = ({focusInput}) => {
     <div className="absolute top-1218 z-10 w-full bg-gray-800 h-116 pt-12 pb-6 px-44 grid grid-cols-4 gap-x-16 text-white">
         <div className="text-sm">
             <h3 className="text-base mb-2 font-semibold">Get to Know Us</h3>
-            <div className="grid gap-y-2 font-light">
-                <Link to="">Careers</Link>
-                <Link to="">Amazon Newsletter</Link>
-                <Link to="">About Amazon</Link>
-                <Link to="">Accessibility</Link>
-                <Link to="">Sustainability</Link>
-                <Link to="">Press Center</Link>
-                <Link to="">Investor Relations</Link>
-                <Link to="">Amazon Devices</Link>
-                <Link to="">Amazon Science</Link>
+            <div className="grid gap-y-2 font-light ">
+                <Link to="" className="hover:underline" >Careers</Link>
+                <Link to="" className="hover:underline" >Amazon Newsletter</Link>
+                <Link to="" className="hover:underline" >About Amazon</Link>
+                <Link to="" className="hover:underline" >Accessibility</Link>
+                <Link to="" className="hover:underline" >Sustainability</Link>
+                <Link to="" className="hover:underline" >Press Center</Link>
+                <Link to="" className="hover:underline" >Investor Relations</Link>
+                <Link to="" className="hover:underline" >Amazon Devices</Link>
+                <Link to="" className="hover:underline" >Amazon Science</Link>
             </div>
         </div>
         <div className=" text-sm ">
             <h3 className="text-base mb-2 font-semibold">Make Money with Us</h3>
-            <div className="grid gap-y-2 font-light">
+            <div className="grid gap-y-2 font-light ">
                 <Link to="">Sell products on Amazon</Link>
-                <Link to="">Sell apps on Amazon</Link>
-                <Link to="">Supply to Amazon</Link>
-                <Link to="">Protect & Build Your <br /> Brand</Link>
-                <Link to="">Become an Affiliate</Link>
-                <Link to="">Become a Delivery Driver</Link>
-                <Link to="">Start a Package Delivery Business</Link>
-                <Link to="">Advertise Your Products</Link>
-                <Link to="">Self-Publish with Us</Link>
-                <Link to="">Host an Amazon Hub</Link>
-                <Link to="">See ore Ways to Make Money</Link>
+                <Link to="" className="hover:underline" >Sell apps on Amazon</Link>
+                <Link to="" className="hover:underline" >Supply to Amazon</Link>
+                <Link to="" className="hover:underline" >Protect & Build Your <br /> Brand</Link>
+                <Link to="" className="hover:underline" >Become an Affiliate</Link>
+                <Link to="" className="hover:underline" >Become a Delivery Driver</Link>
+                <Link to="" className="hover:underline" >Start a Package Delivery Business</Link>
+                <Link to="" className="hover:underline" >Advertise Your Products</Link>
+                <Link to="" className="hover:underline" >Self-Publish with Us</Link>
+                <Link to="" className="hover:underline" >Host an Amazon Hub</Link>
+                <Link to="" className="hover:underline" >See ore Ways to Make Money</Link>
             </div>
         </div>
         <div className="text-sm">
             <h3 className="text-base mb-2 font-semibold">Amazon Payment Products</h3>
-            <div className="grid gap-y-2 font-light">
-                <Link to="">Amazon Visa</Link>
-                <Link to="">Amazon Store Card</Link>
-                <Link to="">Amazon Secured Card</Link>
-                <Link to="">Amazon Business Card</Link>
-                <Link to="">Shop with Points</Link>
-                <Link to="">Credit Card Marketplace</Link>
-                <Link to="">Read Your Balance</Link>
-                <Link to="">Amazon Currency Converter</Link>
+            <div className="grid gap-y-2 font-light ">
+                <Link to="" className="hover:underline" >Amazon Visa</Link>
+                <Link to="" className="hover:underline" >Amazon Store Card</Link>
+                <Link to="" className="hover:underline" >Amazon Secured Card</Link>
+                <Link to="" className="hover:underline" >Amazon Business Card</Link>
+                <Link to="" className="hover:underline" >Shop with Points</Link>
+                <Link to="" className="hover:underline" >Credit Card Marketplace</Link>
+                <Link to="" className="hover:underline" >Read Your Balance</Link>
+                <Link to="" className="hover:underline" >Amazon Currency Converter</Link>
             </div>
         </div>
         <div className="text-sm">
             <h3 className="text-base mb-2 font-semibold">Let Us Help You</h3>
-            <div className="grid gap-y-2 font-light">
-                <Link to="">Amazon and COVID-19</Link>
-                <Link to="">Your Account</Link>
-                <Link to="">Your Orders</Link>
-                <Link to="">Shipping Rates & Policies</Link>
-                <Link to="">Amazon Prime</Link>
-                <Link to="">Returns & Replacements</Link>
-                <Link to="">Manage Your Content and Devices</Link>
-                <Link to="">Your Recalls and Product Safety Alerts</Link>
-                <Link to="">Help</Link>
+            <div className="grid gap-y-2 font-light ">
+                <Link to="" className="hover:underline" >Amazon and COVID-19</Link>
+                <Link to="" className="hover:underline" >Your Account</Link>
+                <Link to="" className="hover:underline" >Your Orders</Link>
+                <Link to="" className="hover:underline" >Shipping Rates & Policies</Link>
+                <Link to="" className="hover:underline" >Amazon Prime</Link>
+                <Link to="" className="hover:underline" >Returns & Replacements</Link>
+                <Link to="" className="hover:underline" >Manage Your Content and Devices</Link>
+                <Link to="" className="hover:underline" >Your Recalls and Product Safety Alerts</Link>
+                <Link to="" className="hover:underline" >Help</Link>
             </div>
         </div>
     </div>
