@@ -177,7 +177,7 @@ const Body = () => {
             <div className='mt-8 border-t border-b  w-full'>
                 <div className='grid justify-center pt-8 pb-4'>
                     <h3 className='text-sm m-1'>See specialized recommendations</h3>
-                    <button className='w-56 h-7 shadow-inner bg-gradient-to-b from-amber-300 via-amber-400 to-amber-400 rounded-md text-sm font-semibold'>Sign in</button>
+                    <button className='w-56 h-7 shadow-inner bg-gradient-to-b from-amber-300 via-amber-400 to-amber-400 rounded-md text-xs font-semibold'>Sign in</button>
                     <div className='flex text-xs self-center my-1 mx-10'>
                        <h4>New customer?</h4>
                        <Link to="" className='text-blue-700 ml-1'>Start here</Link> 
@@ -185,9 +185,11 @@ const Body = () => {
                 </div>
             </div>
         </div>
-        <div className="absolute top-1206 z-10 w-full bg-slate-700 h-12 cursor-pointer" onClick={focusInput} >
+        <Link to="" onClick={focusInput}>
+         <button className="absolute top-1206 z-10 w-full bg-slate-700 h-12 cursor-pointer" >
                 <h3 className='text-sm text-white self-center'>Back to top</h3>
-        </div>
+        </button>
+        </Link>
         <div className="absolute top-1218 z-10 w-full bg-gray-800 h-116"></div>
     </div>
   )
