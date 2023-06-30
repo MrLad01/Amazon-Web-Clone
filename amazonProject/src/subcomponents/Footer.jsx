@@ -11,8 +11,8 @@ const Footer = ({focusInput}) => {
     </Link>
     <div className="absolute top-1218 z-10 w-full bg-gray-800 h-116 pt-12 pb-6 px-44 grid grid-cols-4 gap-x-16 text-white">
         <div className="text-sm">
-            <h3 className="text-base mb-2">Get to Know Us</h3>
-            <div className="grid gap-y-2">
+            <h3 className="text-base mb-2 font-semibold">Get to Know Us</h3>
+            <div className="grid gap-y-2 font-light">
                 <Link to="">Careers</Link>
                 <Link to="">Amazon Newsletter</Link>
                 <Link to="">About Amazon</Link>
@@ -25,8 +25,8 @@ const Footer = ({focusInput}) => {
             </div>
         </div>
         <div className=" text-sm ">
-            <h3 className="text-base mb-2">Make Money with Us</h3>
-            <div className="grid gap-y-2">
+            <h3 className="text-base mb-2 font-semibold">Make Money with Us</h3>
+            <div className="grid gap-y-2 font-light">
                 <Link to="">Sell products on Amazon</Link>
                 <Link to="">Sell apps on Amazon</Link>
                 <Link to="">Supply to Amazon</Link>
@@ -41,8 +41,8 @@ const Footer = ({focusInput}) => {
             </div>
         </div>
         <div className="text-sm">
-            <h3 className="text-base mb-2">Amazon Payment Products</h3>
-            <div className="grid gap-y-2">
+            <h3 className="text-base mb-2 font-semibold">Amazon Payment Products</h3>
+            <div className="grid gap-y-2 font-light">
                 <Link to="">Amazon Visa</Link>
                 <Link to="">Amazon Store Card</Link>
                 <Link to="">Amazon Secured Card</Link>
@@ -54,8 +54,8 @@ const Footer = ({focusInput}) => {
             </div>
         </div>
         <div className="text-sm">
-            <h3 className="text-base mb-2">Let Us Help You</h3>
-            <div className="grid gap-y-2">
+            <h3 className="text-base mb-2 font-semibold">Let Us Help You</h3>
+            <div className="grid gap-y-2 font-light">
                 <Link to="">Amazon and COVID-19</Link>
                 <Link to="">Your Account</Link>
                 <Link to="">Your Orders</Link>
