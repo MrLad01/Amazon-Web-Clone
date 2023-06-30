@@ -173,7 +173,7 @@ const Body = () => {
         <div className="absolute top-1060 z-10 ml-4">
             <Slider number={4} nw={324} wx={196} />
         </div>
-
+        <div className='absolute top-1158 z-10 w-full h-48 bg-white'></div>
     </div>
   )
 }
