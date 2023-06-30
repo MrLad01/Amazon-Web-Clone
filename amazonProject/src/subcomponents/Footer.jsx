@@ -41,7 +41,7 @@ const Footer = ({focusInput}) => {
             </div>
         </div>
         <div className="text-sm">
-            <h3 className="text-base mb-2 font-semibold">Amazon Payment Products</h3>
+            <h3 className="text-base mb-2 font-semibold -mr-2">Amazon Payment Products</h3>
             <div className="grid gap-y-2 font-light ">
                 <Link to="" className="hover:underline" >Amazon Visa</Link>
                 <Link to="" className="hover:underline" >Amazon Store Card</Link>
