@@ -1,4 +1,5 @@
 import Background from '../subcomponents/Background'
+import Footer from '../subcomponents/Footer'
 import img18 from '../images/img18.jpg'
 import img138 from '../images/img138.jpg'
 import advert from "../images/advert.mp4"
@@ -23,9 +24,11 @@ const Body = () => {
 
 
     const inputRef = useRef();
-    const focusInput = () => {
+    const focusInput = (e) => {
         inputRef.current.focus();
+        e.preventDefault();
     }
+
 
     const videoRef = useRef(null);
 
@@ -185,12 +188,7 @@ const Body = () => {
                 </div>
             </div>
         </div>
-        <Link to="" onClick={focusInput}>
-         <button className="absolute top-1206 z-10 w-full bg-slate-700 h-12 cursor-pointer" >
-                <h3 className='text-sm text-white self-center'>Back to top</h3>
-        </button>
-        </Link>
-        <div className="absolute top-1218 z-10 w-full bg-gray-800 h-116"></div>
+        <Footer focusInput={focusInput} />
     </div>
   )
 }

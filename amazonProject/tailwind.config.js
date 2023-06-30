@@ -6,6 +6,7 @@ export default {
     "./src/components/Body.jsx",
     "./src/pages/Home.jsx",
     "./src/subcomponents/Background.jsx",
+    "./src/subcomponents/Footer.jsx",
     "./src/subcomponents/Cards.jsx",
     "./src/subcomponents/Card2.jsx",
     "./src/subcomponents/Card3.jsx",
