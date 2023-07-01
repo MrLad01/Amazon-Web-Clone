@@ -51,6 +51,7 @@ export default {
         '93': '23.25rem',
         '106':'26.5rem',
         '116': '29rem',
+        '138': '34.5rem',
         'max': '281.25rem',
       }, 
       fontSize: {
