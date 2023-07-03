@@ -69,7 +69,9 @@ const Footer = ({focusInput}) => {
         </div>
     </div>
     <div className="bg-gray-800 h-48"></div>
-    <div className="bg-gray-900 h-138"></div>
+    <div className="bg-gray-900 h-138">
+        <div className="grid grid-cols-7"></div>
+    </div>
    </>
   )}
 export default Footer
