@@ -87,7 +87,14 @@ const Footer = ({focusInput}) => {
                 <h3></h3>
                 <h4></h4>
             </div>
-
+            <div>
+                <h3></h3>
+                <h4></h4>
+            </div>
+            <div>
+                <h3></h3>
+                <h4></h4>
+            </div>
         </div>
     </div>
    </>
