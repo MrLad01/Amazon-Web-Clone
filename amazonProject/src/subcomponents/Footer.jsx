@@ -70,7 +70,12 @@ const Footer = ({focusInput}) => {
     </div>
     <div className="bg-gray-800 h-48"></div>
     <div className="bg-gray-900 h-138">
-        <div className="grid grid-cols-7 grid-rows-4"></div>
+        <div className="grid grid-cols-7 grid-rows-4">
+            <div>
+                <h3></h3>
+                <h4></h4>
+            </div>
+        </div>
     </div>
    </>
   )}
