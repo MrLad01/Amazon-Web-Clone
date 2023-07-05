@@ -95,6 +95,11 @@ const Footer = ({focusInput}) => {
                 <h3>Amazon Business</h3>
                 <h4>Everything For Your Business</h4>
             </div>
+            <div>
+                <h3>AmazonGlobal</h3>
+                <h4>Ship Orders Internationally</h4>
+            </div>
+            
         </div>
     </div>
    </>
