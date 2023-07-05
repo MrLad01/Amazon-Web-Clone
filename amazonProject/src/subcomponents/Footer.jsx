@@ -115,7 +115,11 @@ const Footer = ({focusInput}) => {
                 <h3>Audible</h3>
                 <h4>Listen to Books & Original Audio Performances</h4>
             </div>
-            
+            <div>
+                <h3>Book Depository</h3>
+                <h4>Books With Free Delivery Worldwide</h4>
+            </div>
+
 
 
             
