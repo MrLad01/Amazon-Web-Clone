@@ -107,6 +107,11 @@ const Footer = ({focusInput}) => {
                 <h3>Amazon Ignite</h3>
                 <h4>Sell your original Digital Educational Resources</h4>
             </div>
+            <div>
+                <h3>Amazon Web Services</h3>
+                <h4>Scalable Cloud Computing Services</h4>
+            </div>
+
 
             
         </div>
