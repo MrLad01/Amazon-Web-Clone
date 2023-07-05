@@ -103,6 +103,10 @@ const Footer = ({focusInput}) => {
                 <h3>Home Services</h3>
                 <h4>Experienced Pros Happiness Guarantee</h4>
             </div>
+            <div>
+                <h3>Amazon Ignite</h3>
+                <h4>Sell your original Digital Educational Resources</h4>
+            </div>
 
             
         </div>
