@@ -80,12 +80,12 @@ const Footer = ({focusInput}) => {
                 <h4>Find, attract, and engage customers</h4>
             </div>
             <div>
-                <h3></h3>
-                <h4></h4>
+                <h3>6pm</h3>
+                <h4>Score deals on fashion brands</h4>
             </div>
              <div>
-                <h3></h3>
-                <h4></h4>
+                <h3>AbeBooks</h3>
+                <h4>Books, art & collectibles</h4>
             </div>
             <div>
                 <h3></h3>
