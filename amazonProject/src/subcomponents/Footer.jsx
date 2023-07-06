@@ -143,6 +143,10 @@ const Footer = ({focusInput}) => {
                 <h3>IMDb</h3>
                 <h4>Movies, TV & Celebrities</h4>
             </div>
+            <div>
+                <h3>IMDbPro</h3>
+                <h4>Get info Entertainment Professionals Need</h4>
+            </div>
         </div>
     </div>
    </>
