@@ -118,12 +118,15 @@ const Footer = ({focusInput}) => {
             <div>
                 <h3>Book Depository</h3>
                 <h4>Books With Free Delivery Worldwide</h4>
-            </div>\
+            </div>
             <div>
                 <h3>Box Office Mojo</h3>
                 <h4>Find Movie Box Office Data</h4>
             </div>
-
+            <div>
+                <h3>Box Office Mojo</h3>
+                <h4>Find Movie Box Office Data</h4>
+            </div>
 
 
 
