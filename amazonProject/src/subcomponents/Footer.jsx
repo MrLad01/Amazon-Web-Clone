@@ -146,6 +146,10 @@ const Footer = ({focusInput}) => {
             <div>
                 <h3>IMDbPro</h3>
                 <h4>Get info Entertainment Professionals Need</h4>
+            </div>\
+            <div>
+                <h3>Kindle Direct Publishing </h3>
+                <h4>Indie Digtal & Print Publishing Made Easy</h4>
             </div>
         </div>
     </div>
