@@ -124,8 +124,8 @@ const Footer = ({focusInput}) => {
                 <h4>Find Movie Box Office Data</h4>
             </div>
             <div>
-                <h3>Box Office Mojo</h3>
-                <h4>Find Movie Box Office Data</h4>
+                <h3>ComiXology</h3>
+                <h4>Thousands of Digital Comics</h4>
             </div>
 
 
