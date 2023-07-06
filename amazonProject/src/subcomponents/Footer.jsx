@@ -139,7 +139,10 @@ const Footer = ({focusInput}) => {
                 <h3>Goodreads</h3>
                 <h4>Books reviews & recommendations</h4>
             </div>
-            
+            <div>
+                <h3>IMDb</h3>
+                <h4>Movies, TV & Celebrities</h4>
+            </div>
         </div>
     </div>
    </>
