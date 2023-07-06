@@ -127,7 +127,10 @@ const Footer = ({focusInput}) => {
                 <h3>ComiXology</h3>
                 <h4>Thousands of Digital Comics</h4>
             </div>
-
+            <div>
+                <h3>DPReview</h3>
+                <h4>Digital Photography</h4>
+            </div>
 
 
             
