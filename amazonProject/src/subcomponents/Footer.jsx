@@ -163,6 +163,10 @@ const Footer = ({focusInput}) => {
                 <h3>ShopBop</h3>
                 <h4>Designer Fashion Brands</h4>
             </div>
+            <div>
+                <h3>Woot!</h3>
+                <h4>Deals and Shenanigans</h4>
+            </div>
         </div>
         
     </div>
