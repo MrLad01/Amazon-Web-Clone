@@ -155,7 +155,12 @@ const Footer = ({focusInput}) => {
                 <h3>Kindle Direct Publishing </h3>
                 <h4>Indie Digtal & Print Publishing Made Easy</h4>
             </div>
+            <div>
+                <h3>Prime Video Direct</h3>
+                <h4>Video Distribution Made Easy</h4>
+            </div>
         </div>
+        
     </div>
    </>
   )}
