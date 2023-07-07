@@ -179,6 +179,10 @@ const Footer = ({focusInput}) => {
                 <h3>eero WiFi</h3>
                 <h4>Stream 4K Video in EVry Room</h4>
             </div>
+            <div>
+                <h3>Blink</h3>
+                <h4>Smart Security for Every Home</h4>
+            </div>
         </div>
         
     </div>
