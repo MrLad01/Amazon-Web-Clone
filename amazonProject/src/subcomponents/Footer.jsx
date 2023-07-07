@@ -159,6 +159,10 @@ const Footer = ({focusInput}) => {
                 <h3>Prime Video Direct</h3>
                 <h4>Video Distribution Made Easy</h4>
             </div>
+            <div>
+                <h3>ShopBop</h3>
+                <h4>Designer Fashion Brands</h4>
+            </div>
         </div>
         
     </div>
