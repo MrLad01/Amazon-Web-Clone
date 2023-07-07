@@ -88,6 +88,10 @@ const Footer = ({focusInput}) => {
                 <h4>Books, art & collectibles</h4>
             </div>
             <div>
+                <h3>ACX</h3>
+                <h4>AudioBook Pulblishing made easy.</h4>
+            </div>
+            <div>
                 <h3>Sell on Amazon</h3>
                 <h4>Start a Selling Account</h4>
             </div>
