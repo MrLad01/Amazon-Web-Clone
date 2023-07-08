@@ -183,6 +183,10 @@ const Footer = ({focusInput}) => {
                 <h3>Blink</h3>
                 <h4>Smart Security for Every Home</h4>
             </div>
+            <div>
+                <h3>Neighbors App</h3>
+                <h4>Real-Time Crime & Safty Alerts</h4>
+            </div>
         </div>
         
     </div>
