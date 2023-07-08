@@ -187,6 +187,10 @@ const Footer = ({focusInput}) => {
                 <h3>Neighbors App</h3>
                 <h4>Real-Time Crime & Safty Alerts</h4>
             </div>
+            <div>
+                <h3>Amazon Subscription Boxes</h3>
+                <h4>Top subscription boxes - right to your door</h4>
+            </div>
         </div>
         
     </div>
